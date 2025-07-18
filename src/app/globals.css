@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+select {
+  background-color: #e8e5db;
+  color: #8c8074;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+option {
+  background-color: #e8e5db;
+  color: #8c8074;
+  border-bottom: 1px solid #8c8074;
+  padding: 20px 10px;
+}
