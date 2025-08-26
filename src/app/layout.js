@@ -6,6 +6,7 @@ import { ModalProvider } from '../context/ModalContext';
 import { NavAppearanceProvider } from '../context/NavAppearanceContext';
 import { ToastProvider } from '../components/ToastProvider';
 import LayoutWrapper from '../wrapper/LayoutWrapper';
+import Script from 'next/script';
 
 const aboreto = Aboreto({
   weight: '400',
@@ -57,10 +58,31 @@ export default function RootLayout({ children }) {
         <link rel='manifest' href='/assets/fav/site.webmanifest' />
 
         <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+
+        {/* Google Tag Manager */}
+        <Script id="gtm-script" strategy="afterInteractive">
+          {`
+            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-PXJB9L6B');
+          `}
+        </Script>
       </head>
       <body
         className={`${aboreto.variable} ${figtree.variable} antialiased bg-primary`}
       >
+        {/* Google Tag Manager (noscript) */}
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-PXJB9L6B"
+            height="0"
+            width="0"
+            style={{ display: 'none', visibility: 'hidden' }}
+          ></iframe>
+        </noscript>
+
         <ToastProvider>
           <NavAppearanceProvider>
             <ModalProvider>
