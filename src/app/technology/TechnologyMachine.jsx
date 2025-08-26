@@ -231,7 +231,7 @@ export default function TechnologyParallax() {
                 </div>
               </div>
 
-              <ul className='text-sm md:text-xl text-center font-light font-figtree text-tertiary flex flex-col px-6 md:px-0 gap-y-3 md:gap-y-6 max-w-md mx-auto md:mx-0'>
+              <ul className='text-sm md:text-base text-center font-light font-figtree text-tertiary flex flex-col px-6 md:px-0 gap-y-3 md:gap-y-6 max-w-md mx-auto md:mx-0'>
                 {technologyData[activeIndex].description.map((line, i) => (
                   <li key={i}>{line}</li>
                 ))}
