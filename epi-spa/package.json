@@ -1,0 +1,32 @@
+{
+  "name": "epithelia",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "postbuild": "next-sitemap"
+  },
+  "dependencies": {
+    "googleapis": "^162.0.0",
+    "gsap": "^3.13.0",
+    "libphonenumber-js": "^1.12.24",
+    "lucide-react": "^0.525.0",
+    "next": "14.2.30",
+    "next-sitemap": "^4.2.3",
+    "nodemailer": "^7.0.5",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@svgr/webpack": "^8.1.0",
+    "@types/node": "24.0.7",
+    "@types/react": "19.1.8",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.30",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
+  }
+}
