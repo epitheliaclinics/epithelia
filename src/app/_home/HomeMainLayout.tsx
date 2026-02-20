@@ -46,7 +46,7 @@ export default function HomeMainLayout() {
             {`At Epithelia Clinic, we believe skincare is more than just treatment. It’s a form of self-respect.`}
           </p>
           <p>
-            Rooted in advanced medical science and delivered with the utmost
+            Rooted to advanced medical science and delivered with the utmost
             care, our approach is designed to make you feel seen, supported, and
             radiant in your own skin.
           </p>
