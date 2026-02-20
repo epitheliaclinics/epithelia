@@ -1,14 +1,9 @@
-
+'use client';
 
 import TreatmentHero from '../treatments/components/TreatmentHero';
 import AboutBody from './components/AboutBody';
 
 
-export const metadata = {
-  title: 'About Us - Epithelia',
-  description: 'Learn about Epithelia skin care solutions',
-  keywords: ['about', 'skin care', 'dermatology'],
-};
 
 export default function AboutPage() {
   return (
