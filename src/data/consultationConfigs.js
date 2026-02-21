@@ -1,9 +1,9 @@
 export const consultationConfigs = {
   treatment: {
-    title: 'WHY CHOOSE EPITHELIA?',
+    title: 'Why Choose Epithelia Skin & Hair Clinic in Nanakramguda?',
     sub_title: 'Advanced technology. Personalised care. Lasting results.',
     description:
-      'Discover treatments designed to enhance your natural beauty from the inside out.',
+      'One of Hyderabad's top skin clinics is Epithelia Skin & Hair Clinic, which is run by Dr. Naresh Kumar. We provide professional care for anti-aging, laser hair reduction, laser and light therapy, hair and skin rejuvenation, and preventive care.',
     cta: 'BOOK A CONSULTATION',
     notes: false,
   },
