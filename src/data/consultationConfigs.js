@@ -8,9 +8,9 @@ export const consultationConfigs = {
     notes: false,
   },
   treatmentDetails: {
-    title: 'READY TO BEGIN YOUR JOURNEY?',
+    title: 'Book Expert Dermatologist in Hyderabad?',
     sub_title:
-      'Schedule a consultation and begin your journey to confident, healthy skin and hair, guided by',
+      'Book a consultation with a leading dermatologist in Hyderabad and a trusted Hair specialist. Begin your journey to healthy, radiant skin and hair with expert care, advanced technology, and results you can rely on',
     description: 'advanced technology, expert care, and results you can trust.',
     cta: 'BOOK AN APPOINTMENT',
     notes: true,
