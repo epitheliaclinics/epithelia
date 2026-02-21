@@ -46,9 +46,9 @@ export default function HomeMainLayout() {
             {`At Epithelia Clinic, we believe skincare is more than just treatment. It’s a form of self-respect.`}
           </p>
           <p>
-            Rooted in advanced medical science and delivered with the utmost
-            care, our approach is designed to make you feel seen, supported, and
-            radiant in your own skin.
+            At Epithelia Clinic, skincare goes beyond correction it reflects how you value yourself. 
+            We are a trusted skin and hair clinic in Hyderabad by combining cutting edge medical technology
+            with refined, patient centered care, we deliver personalized experiences that help you feel confident, understood, and radiant.
           </p>
           <p>
             Our clinic offers state-of-the-art skin and hair solutions, all
