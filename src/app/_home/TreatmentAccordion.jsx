@@ -18,7 +18,7 @@ const treatments = [
   {
     id: 1,
     title: 'Hair Rejuvenation',
-    description: `Rediscover fuller, healthier hair with advanced treatments for hair loss and thinning. Designed to stimulate growth, strengthen follicles, and restore scalp vitality with proven medical-grade care.`,
+    description: `Rediscover fuller, healthier hair with advanced hair loss treatment in Hyderabad, guided by the best trichologist in Nanakramguda, offering personalized, medical grade solutions to restore scalp health and natural hair growth.`,
     contents:
       'Services include :\nDermal Infusion, Revlite SI Laser, Alma Hybrid',
     image: '/assets/images/home_treatments_1.png',
@@ -26,7 +26,7 @@ const treatments = [
   {
     id: 2,
     title: 'Skin Rejuvenation',
-    description: `Reveal brighter, smoother, and more radiant skin with advanced dermatological treatments. Our personalised approach targets pigmentation, dullness, fine lines, and uneven texture, blending clinical precision with luxurious care`,
+    description: `Reveal brighter, smoother, and more radiant skin with advanced Chemical peel, acne care, Botox, and dermal fillers designed to address breakouts, fine lines, wrinkles, and volume loss. Our personalized approach targets pigmentation, dullness, and uneven texture, blending clinical precision with refined, luxurious care.`,
     contents:
       'Services include :\nDermal Infusion, Revlite SI Laser, Alma Hybrid',
     image: '/assets/images/home_treatments_2.png',
@@ -34,7 +34,8 @@ const treatments = [
   {
     id: 3,
     title: 'Laser & Light Therapy',
-    description: `Harness the power of advanced light and laser technology to refine skin tone, reduce pigmentation, and restore clarity. These non-invasive therapies are designed to resurface, brighten, and rejuvenate with precision and minimal downtime.`,
+    description: `Harness the power of advanced light and laser technology to refine skin tone, reduce pigmentation, and restore natural clarity. Our laser light therapy offers non-invasive solutions designed to resurface, brighten, and rejuvenate the skin with precision and minimal downtime.`,
+    description2:`We also provide advanced laser tattoo removal, using clinically proven laser systems to safely fade unwanted tattoos while protecting surrounding skin.`,
     contents:
       'Services include :\nRevlite SI, Alma Hybrid, Alma Soprano Titanium',
     image: '/assets/images/home_treatments_3.png',
