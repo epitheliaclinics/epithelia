@@ -10,7 +10,7 @@ export default function TreatmentPage() {
     <div className='min-h-screen relative bg-primary flex flex-col gap-y-20'>
       <TreatmentHero
         backgroundImage='/assets/images/treatments_hero.png'
-        titleTop='PREMIUM SKIN & HAIR & LASER'
+        titleTop='PREMIUM SKIN & HAIR LASER'
         titleBottom='Aesthetics Treatments in Hyderabad'
         mobilePosition='bottom-left'
         description={`Experience visible results with\ncustomised care and\nstate-of-the-art technology`}
