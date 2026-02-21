@@ -126,6 +126,7 @@ export default function TreatmentAccordion() {
                   {activeIndex === index && (
                     <div className='mt-3 text-base md:text-lg font-light text-tertiary space-y-4 whitespace-pre-line'>
                       <p>{item.description}</p>
+                      {item.description2 && <p>{item.description2}</p>}
                       <p>{item.contents}</p>
                     </div>
                   )}
