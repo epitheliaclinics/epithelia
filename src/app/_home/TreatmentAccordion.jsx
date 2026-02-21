@@ -43,7 +43,7 @@ const treatments = [
   {
     id: 4,
     title: 'Anti-ageing',
-    description: `Our anti-ageing protocols are designed to restore firmness, smooth fine lines, and boost collagen from within. Each treatment is rooted in regenerative science and tailored to your skin’s evolving needs.`,
+    description: `At our skin clinic in Nanakramguda, Hyderabad, our anti-aging treatment in Hyderabad is specially designed to restore firmness, smooth fine lines, and naturally boost collagen from within. Each protocol is rooted in advanced regenerative science and personalized to suit your skin’s evolving needs.`,
     contents:
       'Services include :\nArthrex PRP, Regenera Activa, Alma Hybrid, Dermal Infusion',
     image: '/assets/images/home_treatments_4.png',
@@ -51,14 +51,14 @@ const treatments = [
   {
     id: 5,
     title: 'Laser Hair Reduction',
-    description: `Smooth, effortless skin permanently. Our advanced laser hair reduction treatments use cutting-edge technology to deliver lasting results with minimal discomfort. Safe for all skin types, and designed for both precision and comfort.`,
+    description: `Experience smooth, effortless skin with advanced laser hair removal in Hyderabad. Our Advanced technology ensures permanent results, minimal discomfort, and safety for all skin types, providing precise, comfortable, and long-lasting hair reduction.`,
     contents: 'Services include :\nAlma Soprano Titanium',
     image: '/assets/images/home_treatments_5.png',
   },
   {
     id: 6,
     title: 'Preventive Care',
-    description: `Our wellness treatments are designed to maintain optimal skin and scalp health, improving circulation, supporting cell turnover, and keeping your skin and hair at their best, year-round.`,
+    description: `At our aesthetics clinic in Hyderabad, we offer wellness treatments that help you look and feel your best. By improving circulation, supporting healthy cell renewal, and nourishing both skin and scalp, our treatments keep your hair and skin glowing and healthy all year long.`,
     contents: 'Services include :\nDermal Infusion, Alma Hybrid, Arthrex PRP.',
     image: '/assets/images/home_treatments_6.png',
   },
