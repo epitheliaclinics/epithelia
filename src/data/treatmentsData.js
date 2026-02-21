@@ -1,5 +1,5 @@
 const solutionData = {
-  'hair-rejuvenations': {
+  'hair-rejuvenation': {
     title: 'Advanced Hair Rejuvenation Treatments in Hyderabad',
     description: [
       `Hair loss doesn’t have to be permanent. At Epithelia Skin & Hair Clinic, led by Dr. Naresh Kumar, we provide advanced hair rejuvenation treatments in Nanakramguda, Hyderabad to stimulate natural growth, strengthen follicles, and improve scalp health. Using technologies like Regenera Activa, Arthrex PRP, and Alma Hybrid Laser, our hair loss treatment targets thinning hair safely and effectively. `,
