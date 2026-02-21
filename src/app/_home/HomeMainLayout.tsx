@@ -43,20 +43,20 @@ export default function HomeMainLayout() {
         </div>
         <div className='flex flex-col justify-content gap-y-4 max-w-md mx-auto text-sm md:text-lg font-light font-figtree text-tertiary'>
           <p>
-            {`At Epithelia Clinic, we believe skincare is more than just treatment. It’s a form of self-respect.`}
+            {`At Epithelia Clinic, skincare goes beyond correction it reflects how you value yourself.`}
           </p>
           <p>
-            At Epithelia Clinic, skincare goes beyond correction it reflects how you value yourself. 
+       
             We are a trusted skin and hair clinic in Hyderabad by combining cutting edge medical technology
             with refined, patient centered care, we deliver personalized experiences that help you feel confident, understood, and radiant.
           </p>
           <p>
-            Our clinic offers state-of-the-art skin and hair solutions, all
-            curated to match your unique biology and beauty.
+            Our advanced skin and hair treatments are carefully customized to match your unique biology, skin type, and aesthetic goals, 
+            ensuring safe and visible results.
           </p>
           <p>
-            Here, expertise is not cold. It’s compassionate. Technology is not
-            clinical. It’s personal.
+            At Epithelia Clinic, medical expertise is compassionate, and 
+            technology is designed to serve you personally every step of the way.
           </p>
         </div>
         <PrimaryLink
