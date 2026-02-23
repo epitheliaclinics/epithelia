@@ -39,26 +39,28 @@ export default function GalleryPage() {
   ];
 
   //  YOUTUBE VIDEOS
-  const galleryVideos = [
-    {
-      id: 1,
-      category: 'videos',
-      type: 'branding',
-      title: 'Welcome to Epithelia Clinic',
-      description: 'Experience our world-class facility',
-      thumbnail: '/images/gallery/video-thumb-1.jpg',
-      videoUrl: 'https://www.youtube.com/watch?v=bz8OxFQAY_s',
-    },
-    {
-      id: 2,
-      category: 'videos',
-      type: 'treatment',
-      title: 'Laser Hair Reduction Procedure',
-      description: 'See how our advanced laser treatment works',
-      thumbnail: '/images/gallery/video-thumb-2.jpg',
-      videoUrl: 'https://www.youtube.com/watch?v=q56PGw3QK6A',
-    },
-  ];
+const galleryVideos = [
+  {
+    id: 1,
+    category: 'videos',
+    type: 'branding',
+    title: 'Welcome to Epithelia Clinic',
+    description: 'Experience our world-class facility',
+    // YouTube auto-generates thumbnail
+    videoUrl: 'https://www.youtube.com/watch?v=bz8OxFQAY_s',
+    thumbnail: 'https://img.youtube.com/vi/bz8OxFQAY_s/maxresdefault.jpg',
+  },
+  {
+    id: 2,
+    category: 'videos',
+    type: 'treatment',
+    title: 'Laser Hair Reduction Procedure',
+    description: 'See how our advanced laser treatment works',
+    // YouTube auto-generates thumbnail
+    videoUrl: 'https://www.youtube.com/watch?v=q56PGw3QK6A',
+    thumbnail: 'https://img.youtube.com/vi/q56PGw3QK6A/maxresdefault.jpg',
+  },
+];
 
   const filteredImages = activeCategory === 'all' 
     ? galleryImages 
