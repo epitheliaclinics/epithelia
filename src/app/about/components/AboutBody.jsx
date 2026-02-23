@@ -88,10 +88,11 @@ export default function AboutBody() {
               At Epithelia Skin & Hair Clinic, he specialises in PRP treatment, anti-aging, acne, pigmentation, laser therapies, hair loss, 
               and skin treatments for children, blending dermatological science with aesthetic artistry.
             </p>
-              <p className='font-abreto text-secondary uppercase tracking-wider -mt-14'>
-            Aesthetic Dermatologist & Trichologist, MD (DVL)
+            <p className='font-abreto text-secondary uppercase tracking-wider -mt-14'>
+            Why Choose Epithelia Skin & Hair Clinic?
             <br />
-            FOUNDER, EPITHELIA SKIN AND HAIR CLINIC
+           Advanced skin and hair treatments with cutting edge technology and personalized care. 
+              Achieve lasting results and enhance your natural beauty from within.
           </p>
           </div>
         </div>
