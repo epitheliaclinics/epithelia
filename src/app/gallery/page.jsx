@@ -1,18 +1,144 @@
 'use client';
 
 import { useState } from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
 
 export default function GalleryPage() {
   const [activeCategory, setActiveCategory] = useState('all');
+  const [selectedImage, setSelectedImage] = useState(null);
+  const [selectedVideo, setSelectedVideo] = useState(null);
 
   const categories = [
     { id: 'all', name: 'All' },
     { id: 'clinic', name: 'Our Clinic' },
     { id: 'treatments', name: 'Treatments' },
     { id: 'before-after', name: 'Before & After' },
+    { id: 'equipment', name: 'Equipment' },
+    { id: 'team', name: 'Our Team' },
     { id: 'videos', name: 'Videos' },
   ];
+
+  // IMAGES HERE
+  const galleryImages = [
+    // Clinic Images
+    {
+      id: 1,
+      category: 'clinic',
+      src: '/images/gallery/clinic-1.jpg',
+      alt: 'Epithelia Clinic Reception',
+      title: 'Modern Reception Area'
+    },
+    {
+      id: 2,
+      category: 'clinic',
+      src: '/images/gallery/clinic-2.jpg',
+      alt: 'Treatment Room',
+      title: 'Advanced Treatment Room'
+    },
+    {
+      id: 3,
+      category: 'clinic',
+      src: '/images/gallery/clinic-3.jpg',
+      alt: 'Clinic Interior',
+      title: 'Comfortable Waiting Area'
+    },
+    
+    // Treatment Images
+    {
+      id: 4,
+      category: 'treatments',
+      src: '/images/gallery/treatment-1.jpg',
+      alt: 'Laser Hair Reduction',
+      title: 'Laser Treatment Session'
+    },
+    {
+      id: 5,
+      category: 'treatments',
+      src: '/images/gallery/treatment-2.jpg',
+      alt: 'Skin Rejuvenation',
+      title: 'Advanced Skin Treatment'
+    },
+    
+    // Before & After
+    {
+      id: 6,
+      category: 'before-after',
+      src: '/images/gallery/before-after-1.jpg',
+      alt: 'Hair Restoration Results',
+      title: 'Hair Restoration - Before & After'
+    },
+    {
+      id: 7,
+      category: 'before-after',
+      src: '/images/gallery/before-after-2.jpg',
+      alt: 'Skin Treatment Results',
+      title: 'Skin Rejuvenation Results'
+    },
+    
+    // Equipment
+    {
+      id: 8,
+      category: 'equipment',
+      src: '/images/gallery/equipment-1.jpg',
+      alt: 'Alma Laser Machine',
+      title: 'Alma Soprano Laser'
+    },
+    {
+      id: 9,
+      category: 'equipment',
+      src: '/images/gallery/equipment-2.jpg',
+      alt: 'Advanced Technology',
+      title: 'State-of-the-Art Equipment'
+    },
+    
+    // Team
+    {
+      id: 10,
+      category: 'team',
+      src: '/images/gallery/team-1.jpg',
+      alt: 'Dr. Naresh Kumar',
+      title: 'Dr. Naresh Kumar - Dermatologist'
+    },
+    {
+      id: 11,
+      category: 'team',
+      src: '/images/gallery/team-2.jpg',
+      alt: 'Our Expert Team',
+      title: 'Professional Staff'
+    },
+  ];
+
+  //  VIDEOS
+  const galleryVideos = [
+    {
+      id: 1,
+      category: 'videos',
+      type: 'branding',
+      title: 'Welcome to Epithelia Clinic',
+      description: 'Experience our world-class facility',
+      thumbnail: '/images/gallery/video-thumb-1.jpg',
+      videoUrl: '/videos/branding-1.mp4',
+      // OR use Instagram: videoUrl: 'https://www.instagram.com/p/YOUR_VIDEO_ID'
+    },
+    {
+      id: 2,
+      category: 'videos',
+      type: 'treatment',
+      title: 'Laser Hair Reduction Procedure',
+      description: 'See how our advanced laser treatment works',
+      thumbnail: '/images/gallery/video-thumb-2.jpg',
+      videoUrl: '/videos/treatment-1.mp4',
+    },
+  ];
+
+  const filteredImages = activeCategory === 'all' 
+    ? galleryImages 
+    : galleryImages.filter(img => img.category === activeCategory);
+
+  const filteredVideos = activeCategory === 'all' || activeCategory === 'videos'
+    ? galleryVideos
+    : [];
 
   return (
     <div className="min-h-screen bg-primary">
@@ -50,24 +176,142 @@ export default function GalleryPage() {
         </div>
       </section>
 
-      {/* Content Section */}
-      <section className="py-20 px-4">
-        <div className="max-w-3xl mx-auto text-center">
-          <h2 className="font-aboreto text-3xl md:text-4xl mb-6">
-            Gallery Coming Soon
+      {/* Videos Section */}
+      {filteredVideos.length > 0 && (
+        <section className="py-16 px-4">
+          <div className="max-w-7xl mx-auto">
+            <h2 className="font-aboreto text-3xl md:text-4xl text-center mb-12">
+              Videos & Tours
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {filteredVideos.map((video) => (
+                <div
+                  key={video.id}
+                  className="group cursor-pointer"
+                  onClick={() => setSelectedVideo(video)}
+                >
+                  <div className="relative aspect-video bg-gray-200 rounded-lg overflow-hidden">
+                    <Image
+                      src={video.thumbnail}
+                      alt={video.title}
+                      fill
+                      className="object-cover group-hover:scale-110 transition-transform duration-300"
+                    />
+                    <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+                      <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center">
+                        <svg className="w-8 h-8 text-secondary ml-1" fill="currentColor" viewBox="0 0 20 20">
+                          <path d="M6.3 2.841A1.5 1.5 0 004 4.11V15.89a1.5 1.5 0 002.3 1.269l9.344-5.89a1.5 1.5 0 000-2.538L6.3 2.84z" />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="mt-4">
+                    <h3 className="font-aboreto text-xl font-medium">{video.title}</h3>
+                    <p className="text-gray-600 mt-1">{video.description}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* Images Grid */}
+      <section className="py-16 px-4">
+        <div className="max-w-7xl mx-auto">
+          <h2 className="font-aboreto text-3xl md:text-4xl text-center mb-12">
+            {activeCategory === 'all' ? 'All Photos' : categories.find(c => c.id === activeCategory)?.name}
           </h2>
-          <p className="text-gray-600 text-lg mb-8">
-            We&apos;re curating an amazing collection of clinic photos, treatment results, 
-            before &amp; after images, and videos. Stay tuned!
-          </p>
-          <Link
-            href="/book"
-            className="inline-block bg-secondary text-white px-8 py-4 rounded-full font-medium hover:bg-opacity-90 transition-colors"
-          >
-            Book Consultation
-          </Link>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {filteredImages.map((image) => (
+              <div
+                key={image.id}
+                className="group cursor-pointer relative aspect-square"
+                onClick={() => setSelectedImage(image)}
+              >
+                <div className="relative overflow-hidden rounded-lg">
+                  <Image
+                    src={image.src}
+                    alt={image.alt}
+                    fill
+                    className="object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-all duration-300 flex items-end p-6">
+                    <p className="text-white font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                      {image.title}
+                    </p>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
+
+      {/* Lightbox Modal for Images */}
+      {selectedImage && (
+        <div
+          className="fixed inset-0 z-50 bg-black bg-opacity-90 flex items-center justify-center p-4"
+          onClick={() => setSelectedImage(null)}
+        >
+          <button
+            className="absolute top-4 right-4 text-white text-4xl"
+            onClick={() => setSelectedImage(null)}
+          >
+            &times;
+          </button>
+          <div className="relative max-w-5xl w-full" onClick={(e) => e.stopPropagation()}>
+            <Image
+              src={selectedImage.src}
+              alt={selectedImage.alt}
+              width={1200}
+              height={800}
+              className="rounded-lg"
+            />
+            <p className="text-white text-center mt-4 text-xl">{selectedImage.title}</p>
+          </div>
+        </div>
+      )}
+
+      {/* Video Modal */}
+      {selectedVideo && (
+        <div
+          className="fixed inset-0 z-50 bg-black bg-opacity-90 flex items-center justify-center p-4"
+          onClick={() => setSelectedVideo(null)}
+        >
+          <button
+            className="absolute top-4 right-4 text-white text-4xl"
+            onClick={() => setSelectedVideo(null)}
+          >
+            &times;
+          </button>
+          <div className="relative max-w-4xl w-full bg-black rounded-lg overflow-hidden" onClick={(e) => e.stopPropagation()}>
+            {selectedVideo.videoUrl.includes('instagram') ? (
+              <div className="aspect-video flex items-center justify-center text-white p-8">
+                <div className="text-center">
+                  <p className="mb-4">Instagram Video</p>
+                  <a 
+                    href={selectedVideo.videoUrl} 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-secondary underline"
+                  >
+                    Watch on Instagram
+                  </a>
+                </div>
+              </div>
+            ) : (
+              <video controls className="w-full" autoPlay>
+                <source src={selectedVideo.videoUrl} type="video/mp4" />
+              </video>
+            )}
+            <div className="p-6 bg-white">
+              <h3 className="font-aboreto text-2xl">{selectedVideo.title}</h3>
+              <p className="text-gray-600 mt-2">{selectedVideo.description}</p>
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* CTA Section */}
       <section className="py-16 px-4 bg-secondary">
