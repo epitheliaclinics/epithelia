@@ -1,7 +1,6 @@
 'use client';
 
 import { useState } from 'react';
-import Image from 'next/image';
 import Link from 'next/link';
 
 // Helper function to extract YouTube video ID
@@ -26,7 +25,9 @@ export default function GalleryPage() {
     { id: 'videos', name: 'Videos' },
   ];
 
+  // ALL GALLERY IMAGES
   const galleryImages = [
+    // CLINIC IMAGES
     {
       id: 1,
       category: 'clinic',
@@ -62,9 +63,80 @@ export default function GalleryPage() {
       alt: 'Epithelia Clinic - Waiting Hall',
       title: 'Comfortable Waiting Area'
     },
+    
+    // TREATMENTS IMAGES
+    {
+      id: 6,
+      category: 'treatments',
+      src: '/images/gallery/treatment-1.png',
+      alt: 'Laser Hair Reduction Treatment',
+      title: 'Laser Hair Reduction'
+    },
+    {
+      id: 7,
+      category: 'treatments',
+      src: '/images/gallery/treatment-2.png',
+      alt: 'Skin Rejuvenation Treatment',
+      title: 'Skin Rejuvenation'
+    },
+    {
+      id: 8,
+      category: 'treatments',
+      src: '/images/gallery/treatment-3.png',
+      alt: 'PRP Hair Treatment',
+      title: 'PRP Therapy'
+    },
+    
+    // BEFORE & AFTER IMAGES
+    {
+      id: 9,
+      category: 'before-after',
+      src: '/images/gallery/before-after-1.png',
+      alt: 'Hair Restoration Before After',
+      title: 'Hair Restoration Results'
+    },
+    {
+      id: 10,
+      category: 'before-after',
+      src: '/images/gallery/before-after-2.png',
+      alt: 'Skin Treatment Before After',
+      title: 'Skin Transformation'
+    },
+    
+    // EQUIPMENT IMAGES
+    {
+      id: 11,
+      category: 'equipment',
+      src: '/images/gallery/equipment-1.png',
+      alt: 'Alma Laser Machine',
+      title: 'Alma Soprano Laser'
+    },
+    {
+      id: 12,
+      category: 'equipment',
+      src: '/images/gallery/equipment-2.png',
+      alt: 'Advanced Treatment Equipment',
+      title: 'State-of-the-Art Technology'
+    },
+    
+    // TEAM IMAGES
+    {
+      id: 13,
+      category: 'team',
+      src: '/images/gallery/team-1.png',
+      alt: 'Dr Naresh Kumar Dermatologist',
+      title: 'Dr. Naresh Kumar'
+    },
+    {
+      id: 14,
+      category: 'team',
+      src: '/images/gallery/team-2.png',
+      alt: 'Epithelia Clinic Team',
+      title: 'Expert Medical Team'
+    },
   ];
 
-  //Videos
+  // YOUTUBE VIDEOS
   const galleryVideos = [
     {
       id: 1,
@@ -145,14 +217,10 @@ export default function GalleryPage() {
                   onClick={() => setSelectedVideo(video)}
                 >
                   <div className="relative aspect-video bg-gray-200 rounded-lg overflow-hidden">
-                    <Image
+                    <img
                       src={video.thumbnail}
                       alt={video.title}
-                      fill
-                      className="object-cover group-hover:scale-110 transition-transform duration-300"
-                      onError={(e) => {
-                        e.target.src = 'https://via.placeholder.com/400x225?text=Video';
-                      }}
+                      className="object-cover w-full h-full group-hover:scale-110 transition-transform duration-300"
                     />
                     <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
                       <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center">
@@ -191,14 +259,14 @@ export default function GalleryPage() {
                   onClick={() => setSelectedImage(image)}
                 >
                   <div className="relative overflow-hidden rounded-lg bg-gray-100">
-                   <img
-                       src={image.src}
-                       alt={image.alt}
+                    <img
+                      src={image.src}
+                      alt={image.alt}
                       className="object-cover w-full h-full group-hover:scale-110 transition-transform duration-300"
                       onError={(e) => {
-                     e.target.src = 'https://via.placeholder.com/400x400?text=Image+NotFound';
-                     }}
-                      />
+                        e.target.src = 'https://via.placeholder.com/400x400?text=Image+NotFound';
+                      }}
+                    />
                     <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-all duration-300 flex items-end p-6">
                       <p className="text-white font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                         {image.title}
@@ -225,14 +293,12 @@ export default function GalleryPage() {
             &times;
           </button>
           <div className="relative max-w-5xl w-full" onClick={(e) => e.stopPropagation()}>
-            <Image
+            <img
               src={selectedImage.src}
               alt={selectedImage.alt}
-              width={1200}
-              height={800}
-              className="rounded-lg"
+              className="w-full rounded-lg"
               onError={(e) => {
-                e.target.src = 'https://via.placeholder.com/1200x800?text=Image+Not+Found';
+                e.target.src = 'https://via.placeholder.com/1200x800?text=Image+NotFound';
               }}
             />
             <p className="text-white text-center mt-4 text-xl">{selectedImage.title}</p>
@@ -240,7 +306,7 @@ export default function GalleryPage() {
         </div>
       )}
 
-      {/* Video Modal with YouTube Support */}
+      {/* Video Modal */}
       {selectedVideo && (
         <div
           className="fixed inset-0 z-50 bg-black bg-opacity-90 flex items-center justify-center p-4"
