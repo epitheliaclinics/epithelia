@@ -88,6 +88,16 @@ export default function AboutBody() {
               At Epithelia Skin & Hair Clinic, he specialises in PRP treatment, anti-aging, acne, pigmentation, laser therapies, hair loss, 
               and skin treatments for children, blending dermatological science with aesthetic artistry.
             </p>
+            
+            <div className="mt-12 text-center">
+            <h2 className="text-2xl md:text-3xl font-aboreto text-secondary mb-4">
+               Why Choose Epithelia Skin & Hair Clinic?
+            </h2>
+           <p className="text-base md:text-lg font-light text-tertiary max-w-3xl mx-auto">
+           Advanced skin and hair treatments with cutting edge technology and personalized care. 
+           Achieve lasting results and enhance your natural beauty from within.
+           </p>
+          </div>
        
           </div>
         </div>
