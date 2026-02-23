@@ -26,77 +26,65 @@ export default function GalleryPage() {
     { id: 'videos', name: 'Videos' },
   ];
 
-const galleryImages = [
-  // ========== CLINIC IMAGES ==========
-  {
-    id: 1,
-    category: 'clinic',
-    src: '/images/gallery/epithila.png',
-    alt: 'Epithelia Clinic',
-    title: 'Epithelia Clinic'
-  },
-  {
-    id: 2,
-    category: 'clinic',
-    src: '/images/gallery/epithilaclinic.png',
-    alt: 'Epithelia Clinic Interior',
-    title: 'Clinic Interior'
-  },
-  {
-    id: 3,
-    category: 'clinic',
-    src: '/images/gallery/epithilaclinichyd.png',
-    alt: 'Epithelia Clinic Hyderabad',
-    title: 'Epithelia Clinic - Hyderabad'
-  },
-  {
-    id: 4,
-    category: 'clinic',
-    src: '/images/gallery/epithilameetingroom.png',
-    alt: 'Epithelia Clinic - Meeting Room',
-    title: 'Modern Meeting Room'
-  },
-  {
-    id: 5,
-    category: 'clinic',
-    src: '/images/gallery/epithilawaitinghall.png',
-    alt: 'Epithelia Clinic - Waiting Hall',
-    title: 'Comfortable Waiting Area'
-  },
-  
-  // Add more images here as you upload them:
-  // {
-  //   id: 6,
-  //   category: 'treatments',
-  //   src: '/images/gallery/treatment-1.png',
-  //   alt: 'Treatment Description',
-  //   title: 'Treatment Title'
-  // },
-];
+  const galleryImages = [
+    {
+      id: 1,
+      category: 'clinic',
+      src: '/images/gallery/epithila.png',
+      alt: 'Epithelia Clinic',
+      title: 'Epithelia Clinic'
+    },
+    {
+      id: 2,
+      category: 'clinic',
+      src: '/images/gallery/epithilaclinic.png',
+      alt: 'Epithelia Clinic Interior',
+      title: 'Clinic Interior'
+    },
+    {
+      id: 3,
+      category: 'clinic',
+      src: '/images/gallery/epithilaclinichyd.png',
+      alt: 'Epithelia Clinic Hyderabad',
+      title: 'Epithelia Clinic - Hyderabad'
+    },
+    {
+      id: 4,
+      category: 'clinic',
+      src: '/images/gallery/epithilameetingroom.png',
+      alt: 'Epithelia Clinic - Meeting Room',
+      title: 'Modern Meeting Room'
+    },
+    {
+      id: 5,
+      category: 'clinic',
+      src: '/images/gallery/epithilawaitinghall.png',
+      alt: 'Epithelia Clinic - Waiting Hall',
+      title: 'Comfortable Waiting Area'
+    },
+  ];
 
-  //  YOUTUBE VIDEOS
-const galleryVideos = [
-  {
-    id: 1,
-    category: 'videos',
-    type: 'branding',
-    title: 'Welcome to Epithelia Clinic',
-    description: 'Experience our world-class facility',
-    // YouTube auto-generates thumbnail
-    videoUrl: 'https://www.youtube.com/watch?v=bz8OxFQAY_s',
-    thumbnail: 'https://img.youtube.com/vi/bz8OxFQAY_s/maxresdefault.jpg',
-  },
-  {
-    id: 2,
-    category: 'videos',
-    type: 'treatment',
-    title: 'Laser Hair Reduction Procedure',
-    description: 'See how our advanced laser treatment works',
-    // YouTube auto-generates thumbnail
-    videoUrl: 'https://www.youtube.com/watch?v=q56PGw3QK6A',
-    thumbnail: 'https://img.youtube.com/vi/q56PGw3QK6A/maxresdefault.jpg',
-  },
-];
+  //Videos
+  const galleryVideos = [
+    {
+      id: 1,
+      category: 'videos',
+      type: 'branding',
+      title: 'Welcome to Epithelia Clinic',
+      description: 'Experience our world-class facility',
+      videoUrl: 'https://www.youtube.com/watch?v=bz8OxFQAY_s',
+      thumbnail: 'https://img.youtube.com/vi/bz8OxFQAY_s/maxresdefault.jpg',
+    },
+    {
+      id: 2,
+      category: 'videos',
+      type: 'treatment',
+      title: 'Laser Hair Reduction Procedure',
+      description: 'See how our advanced laser treatment works',
+      videoUrl: 'https://www.youtube.com/watch?v=q56PGw3QK6A',
+      thumbnail: 'https://img.youtube.com/vi/q56PGw3QK6A/maxresdefault.jpg',
+    },
+  ];
 
   const filteredImages = activeCategory === 'all' 
     ? galleryImages 
@@ -162,6 +150,9 @@ const galleryVideos = [
                       alt={video.title}
                       fill
                       className="object-cover group-hover:scale-110 transition-transform duration-300"
+                      onError={(e) => {
+                        e.target.src = 'https://via.placeholder.com/400x225?text=Video';
+                      }}
                     />
                     <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
                       <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center">
@@ -188,29 +179,37 @@ const galleryVideos = [
           <h2 className="font-aboreto text-3xl md:text-4xl text-center mb-12">
             {activeCategory === 'all' ? 'All Photos' : categories.find(c => c.id === activeCategory)?.name}
           </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {filteredImages.map((image) => (
-              <div
-                key={image.id}
-                className="group cursor-pointer relative aspect-square"
-                onClick={() => setSelectedImage(image)}
-              >
-                <div className="relative overflow-hidden rounded-lg">
-                  <Image
-                    src={image.src}
-                    alt={image.alt}
-                    fill
-                    className="object-cover group-hover:scale-110 transition-transform duration-300"
-                  />
-                  <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-all duration-300 flex items-end p-6">
-                    <p className="text-white font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                      {image.title}
-                    </p>
+          
+          {filteredImages.length === 0 ? (
+            <p className="text-center text-gray-500 text-lg">No images in this category yet.</p>
+          ) : (
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+              {filteredImages.map((image) => (
+                <div
+                  key={image.id}
+                  className="group cursor-pointer relative aspect-square"
+                  onClick={() => setSelectedImage(image)}
+                >
+                  <div className="relative overflow-hidden rounded-lg bg-gray-100">
+                    <Image
+                      src={image.src}
+                      alt={image.alt}
+                      fill
+                      className="object-cover group-hover:scale-110 transition-transform duration-300"
+                      onError={(e) => {
+                        e.target.src = 'https://via.placeholder.com/400x400?text=Image+Not+Found';
+                      }}
+                    />
+                    <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-all duration-300 flex items-end p-6">
+                      <p className="text-white font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        {image.title}
+                      </p>
+                    </div>
                   </div>
                 </div>
-              </div>
-            ))}
-          </div>
+              ))}
+            </div>
+          )}
         </div>
       </section>
 
@@ -233,6 +232,9 @@ const galleryVideos = [
               width={1200}
               height={800}
               className="rounded-lg"
+              onError={(e) => {
+                e.target.src = 'https://via.placeholder.com/1200x800?text=Image+Not+Found';
+              }}
             />
             <p className="text-white text-center mt-4 text-xl">{selectedImage.title}</p>
           </div>
@@ -252,7 +254,6 @@ const galleryVideos = [
             &times;
           </button>
           <div className="relative max-w-4xl w-full bg-black rounded-lg overflow-hidden" onClick={(e) => e.stopPropagation()}>
-            {/* YouTube Embed */}
             {selectedVideo.videoUrl.includes('youtube.com') || selectedVideo.videoUrl.includes('youtu.be') ? (
               <div className="aspect-video">
                 <iframe
@@ -267,7 +268,6 @@ const galleryVideos = [
                 ></iframe>
               </div>
             ) : (
-              /* Regular MP4 Video */
               <video controls className="w-full" autoPlay>
                 <source src={selectedVideo.videoUrl} type="video/mp4" />
               </video>
