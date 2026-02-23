@@ -4,6 +4,13 @@ import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
+// Helper function to extract YouTube video ID
+function getYoutubeId(url) {
+  const regExp = /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|&v=)([^#&?]*).*/;
+  const match = url.match(regExp);
+  return (match && match[2].length === 11) ? match[2] : '';
+}
+
 export default function GalleryPage() {
   const [activeCategory, setActiveCategory] = useState('all');
   const [selectedImage, setSelectedImage] = useState(null);
@@ -19,9 +26,8 @@ export default function GalleryPage() {
     { id: 'videos', name: 'Videos' },
   ];
 
-  // IMAGES HERE
   const galleryImages = [
-    // Clinic Images
+    // Add your images here
     {
       id: 1,
       category: 'clinic',
@@ -29,87 +35,10 @@ export default function GalleryPage() {
       alt: 'Epithelia Clinic Reception',
       title: 'Modern Reception Area'
     },
-    {
-      id: 2,
-      category: 'clinic',
-      src: '/images/gallery/clinic-2.jpg',
-      alt: 'Treatment Room',
-      title: 'Advanced Treatment Room'
-    },
-    {
-      id: 3,
-      category: 'clinic',
-      src: '/images/gallery/clinic-3.jpg',
-      alt: 'Clinic Interior',
-      title: 'Comfortable Waiting Area'
-    },
-    
-    // Treatment Images
-    {
-      id: 4,
-      category: 'treatments',
-      src: '/images/gallery/treatment-1.jpg',
-      alt: 'Laser Hair Reduction',
-      title: 'Laser Treatment Session'
-    },
-    {
-      id: 5,
-      category: 'treatments',
-      src: '/images/gallery/treatment-2.jpg',
-      alt: 'Skin Rejuvenation',
-      title: 'Advanced Skin Treatment'
-    },
-    
-    // Before & After
-    {
-      id: 6,
-      category: 'before-after',
-      src: '/images/gallery/before-after-1.jpg',
-      alt: 'Hair Restoration Results',
-      title: 'Hair Restoration - Before & After'
-    },
-    {
-      id: 7,
-      category: 'before-after',
-      src: '/images/gallery/before-after-2.jpg',
-      alt: 'Skin Treatment Results',
-      title: 'Skin Rejuvenation Results'
-    },
-    
-    // Equipment
-    {
-      id: 8,
-      category: 'equipment',
-      src: '/images/gallery/equipment-1.jpg',
-      alt: 'Alma Laser Machine',
-      title: 'Alma Soprano Laser'
-    },
-    {
-      id: 9,
-      category: 'equipment',
-      src: '/images/gallery/equipment-2.jpg',
-      alt: 'Advanced Technology',
-      title: 'State-of-the-Art Equipment'
-    },
-    
-    // Team
-    {
-      id: 10,
-      category: 'team',
-      src: '/images/gallery/team-1.jpg',
-      alt: 'Dr. Naresh Kumar',
-      title: 'Dr. Naresh Kumar - Dermatologist'
-    },
-    {
-      id: 11,
-      category: 'team',
-      src: '/images/gallery/team-2.jpg',
-      alt: 'Our Expert Team',
-      title: 'Professional Staff'
-    },
+    // ... add more images
   ];
 
-  //  VIDEOS
+  //  YOUTUBE VIDEOS
   const galleryVideos = [
     {
       id: 1,
@@ -118,8 +47,7 @@ export default function GalleryPage() {
       title: 'Welcome to Epithelia Clinic',
       description: 'Experience our world-class facility',
       thumbnail: '/images/gallery/video-thumb-1.jpg',
-      videoUrl: '/videos/branding-1.mp4',
-      // OR use Instagram: videoUrl: 'https://www.instagram.com/p/YOUR_VIDEO_ID'
+      videoUrl: 'https://www.youtube.com/watch?v=bz8OxFQAY_s',
     },
     {
       id: 2,
@@ -128,7 +56,7 @@ export default function GalleryPage() {
       title: 'Laser Hair Reduction Procedure',
       description: 'See how our advanced laser treatment works',
       thumbnail: '/images/gallery/video-thumb-2.jpg',
-      videoUrl: '/videos/treatment-1.mp4',
+      videoUrl: 'https://www.youtube.com/watch?v=q56PGw3QK6A',
     },
   ];
 
@@ -273,7 +201,7 @@ export default function GalleryPage() {
         </div>
       )}
 
-      {/* Video Modal */}
+      {/* Video Modal with YouTube Support */}
       {selectedVideo && (
         <div
           className="fixed inset-0 z-50 bg-black bg-opacity-90 flex items-center justify-center p-4"
@@ -286,21 +214,22 @@ export default function GalleryPage() {
             &times;
           </button>
           <div className="relative max-w-4xl w-full bg-black rounded-lg overflow-hidden" onClick={(e) => e.stopPropagation()}>
-            {selectedVideo.videoUrl.includes('instagram') ? (
-              <div className="aspect-video flex items-center justify-center text-white p-8">
-                <div className="text-center">
-                  <p className="mb-4">Instagram Video</p>
-                  <a 
-                    href={selectedVideo.videoUrl} 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="text-secondary underline"
-                  >
-                    Watch on Instagram
-                  </a>
-                </div>
+            {/* YouTube Embed */}
+            {selectedVideo.videoUrl.includes('youtube.com') || selectedVideo.videoUrl.includes('youtu.be') ? (
+              <div className="aspect-video">
+                <iframe
+                  width="100%"
+                  height="100%"
+                  src={`https://www.youtube.com/embed/${getYoutubeId(selectedVideo.videoUrl)}`}
+                  title={selectedVideo.title}
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  className="w-full h-full"
+                ></iframe>
               </div>
             ) : (
+              /* Regular MP4 Video */
               <video controls className="w-full" autoPlay>
                 <source src={selectedVideo.videoUrl} type="video/mp4" />
               </video>
