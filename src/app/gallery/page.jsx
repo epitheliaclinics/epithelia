@@ -68,7 +68,7 @@ export default function GalleryPage() {
     {
       id: 6,
       category: 'treatments',
-      src: '/images/gallery/treatment-1.png',
+      src: '/images/gallery/skintreatment.png',
       alt: 'Laser Hair Reduction Treatment',
       title: 'Laser Hair Reduction'
     },
