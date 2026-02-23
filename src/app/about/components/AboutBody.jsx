@@ -98,7 +98,7 @@ export default function AboutBody() {
            Achieve lasting results and enhance your natural beauty from within.
            </p>
           </div>
-       
+         
           </div>
         </div>
       </section>
