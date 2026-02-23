@@ -26,17 +26,53 @@ export default function GalleryPage() {
     { id: 'videos', name: 'Videos' },
   ];
 
-  const galleryImages = [
-    // Add your images here
-    {
-      id: 1,
-      category: 'clinic',
-      src: '/images/gallery/clinic-1.jpg',
-      alt: 'Epithelia Clinic Reception',
-      title: 'Modern Reception Area'
-    },
-    // ... add more images
-  ];
+const galleryImages = [
+  // ========== CLINIC IMAGES ==========
+  {
+    id: 1,
+    category: 'clinic',
+    src: '/images/gallery/epithila.png',
+    alt: 'Epithelia Clinic',
+    title: 'Epithelia Clinic'
+  },
+  {
+    id: 2,
+    category: 'clinic',
+    src: '/images/gallery/epithilaclinic.png',
+    alt: 'Epithelia Clinic Interior',
+    title: 'Clinic Interior'
+  },
+  {
+    id: 3,
+    category: 'clinic',
+    src: '/images/gallery/epithilaclinichyd.png',
+    alt: 'Epithelia Clinic Hyderabad',
+    title: 'Epithelia Clinic - Hyderabad'
+  },
+  {
+    id: 4,
+    category: 'clinic',
+    src: '/images/gallery/epithilameetingroom.png',
+    alt: 'Epithelia Clinic - Meeting Room',
+    title: 'Modern Meeting Room'
+  },
+  {
+    id: 5,
+    category: 'clinic',
+    src: '/images/gallery/epithilawaitinghall.png',
+    alt: 'Epithelia Clinic - Waiting Hall',
+    title: 'Comfortable Waiting Area'
+  },
+  
+  // Add more images here as you upload them:
+  // {
+  //   id: 6,
+  //   category: 'treatments',
+  //   src: '/images/gallery/treatment-1.png',
+  //   alt: 'Treatment Description',
+  //   title: 'Treatment Title'
+  // },
+];
 
   //  YOUTUBE VIDEOS
 const galleryVideos = [
