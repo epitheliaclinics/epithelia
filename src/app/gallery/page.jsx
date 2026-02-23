@@ -24,7 +24,7 @@ export default function GalleryPage() {
             Our Gallery
           </h1>
           <p className="font-figtree text-lg sm:text-xl md:text-2xl text-white max-w-3xl mx-auto">
-            Explore Epithelia Clinic's modern facilities, advanced treatments, and real results
+            Explore Epithelia Clinic&apos;s modern facilities, advanced treatments, and real results
           </p>
         </div>
       </section>
@@ -57,8 +57,8 @@ export default function GalleryPage() {
             Gallery Coming Soon
           </h2>
           <p className="text-gray-600 text-lg mb-8">
-            We're curating an amazing collection of clinic photos, treatment results, 
-            before & after images, and videos. Stay tuned!
+            We&apos;re curating an amazing collection of clinic photos, treatment results, 
+            before &amp; after images, and videos. Stay tuned!
           </p>
           <Link
             href="/book"
