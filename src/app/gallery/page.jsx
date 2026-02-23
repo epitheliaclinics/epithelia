@@ -191,15 +191,14 @@ export default function GalleryPage() {
                   onClick={() => setSelectedImage(image)}
                 >
                   <div className="relative overflow-hidden rounded-lg bg-gray-100">
-                    <Image
-                      src={image.src}
-                      alt={image.alt}
-                      fill
-                      className="object-cover group-hover:scale-110 transition-transform duration-300"
+                   <img
+                       src={image.src}
+                       alt={image.alt}
+                      className="object-cover w-full h-full group-hover:scale-110 transition-transform duration-300"
                       onError={(e) => {
-                        e.target.src = 'https://via.placeholder.com/400x400?text=Image+Not+Found';
-                      }}
-                    />
+                     e.target.src = 'https://via.placeholder.com/400x400?text=Image+NotFound';
+                     }}
+                      />
                     <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-all duration-300 flex items-end p-6">
                       <p className="text-white font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                         {image.title}
