@@ -3,7 +3,7 @@ export async function generateMetadata({ params }) {
   // Treatment-specific SEO data
   const treatments = {
     'preventive-and-maintenance-care': {
-      title: "reventive & Maintenance Care – Skin & Hair, Wellness",
+      title: "Preventive & Maintenance Care – Skin & Hair, Wellness",
       description: "Preventive & Maintenance Care Skin & Hair, Wellness: Delay ageing signs, reduce sensitivity, dullness, hair fall, and maintain long-term skin & hair health.",
       keywords: ["preventive skin care hyderabad", "skin maintenance nanakramguda", "preventive dermatology"]
     },
@@ -18,7 +18,7 @@ export async function generateMetadata({ params }) {
       keywords: ["anti-aging clinic hyderabad", "botox treatment nanakramguda", "skin tightening hyderabad"]
     },
     'laser-and-light-therapy': {
-      title: "Laser & Light Therapy in Hyderabad– Epithelia Clinic",
+      title: "Laser & Light Therapy in Hyderabad - Epithelia Clinic",
       description: "Laser & Light Therapy in Hyderabad helps reduce pigmentation, acne scars, fine lines, redness, dull skin, large pores, and boosts collagen for radiant skin",
       keywords: ["laser therapy hyderabad", "light therapy skin treatment", "acne laser nanakramguda"]
     },
@@ -44,6 +44,12 @@ export async function generateMetadata({ params }) {
     title: treatment.title,
     description: treatment.description,
     keywords: treatment.keywords,
+    
+    //Canonical tags
+    alternates: {
+      canonical: `https://www.epitheliaclinic.com/treatments/${params.details}`,
+    },
+    
     openGraph: {
       title: treatment.title,
       description: treatment.description,
@@ -111,7 +117,7 @@ function getSchemaJSON(params) {
       "image": "https://www.epitheliaclinic.com/clinic-logo.jpg",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "1st floor, my scape corner, survey no: 88A, ADP Blvd, Financial District,",
+        "streetAddress": "1st floor, my scape corner, survey no: 88A, ADP Blvd, Financial District",
         "addressLocality": "Nanakramguda",
         "addressRegion": "Hyderabad",
         "addressCountry": "IN",
@@ -140,8 +146,8 @@ function getSchemaJSON(params) {
         "Su 10:00-14:00"
       ],
       "sameAs": [
-        "https://www.facebook.com/yourpage",
-        "https://www.instagram.com/yourprofile"
+        "https://www.instagram.com/epitheliaclinic",
+        "https://www.facebook.com/epitheliaclinic"
       ]
     },
     "medicalAudience": {
