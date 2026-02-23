@@ -78,21 +78,21 @@ export default function AboutBody() {
           </p>
           <div className='flex flex-col gap-y-8 max-w-md'>
             <p>
-              With over a decade of clinical experience, Dr. Naresh Kumar brings
-              together the rigour of dermatological science and the subtlety of
-              aesthetic artistry.
+              With over a decade of experience, Dr. Naresh Kumar is Trained in dermatology from B.L.D.E. 
+              University and holding an MBBS from J.J.M. Medical College,
             </p>
             <p>
-              A board-certified dermatologist and trichologist, his expertise
-              lies in treating Indian skin and scalp with results that are
-              visible, lasting, and always natural-looking.
+             and now a leading skin specialist in Nanakramguda and leading dermatologist in Hyderabad, offering results driven, natural treatments.
             </p>
             <p>
-              Trained in dermatology from B.L.D.E. University and holding an
-              MBBS from J.J.M. Medical College, Dr. Naresh combines global
-              advancements, such as PRP, laser therapies, and regenerative
-              treatments, with a deeply personalised approach.
+              At Epithelia Skin & Hair Clinic, he specialises in PRP treatment, anti-aging, acne, pigmentation, laser therapies, hair loss, 
+              and skin treatments for children, blending dermatological science with aesthetic artistry.
             </p>
+              <p className='font-abreto text-secondary uppercase tracking-wider -mt-14'>
+            Aesthetic Dermatologist & Trichologist, MD (DVL)
+            <br />
+            FOUNDER, EPITHELIA SKIN AND HAIR CLINIC
+          </p>
           </div>
         </div>
       </section>
