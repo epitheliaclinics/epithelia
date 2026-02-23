@@ -14,7 +14,7 @@ export const metadata = {
   openGraph: {
     title: "Premium Skin & Hair Treatments Hyderabad | Epithelia Clinic",
     description: "Advanced skin, hair, laser, and aesthetic treatments in Nanakramguda at Epithelia. Expert skin specialist provides anti-aging, PRP, and rejuvenation treatments.",
-    url: "https://www.epitheliaclinic.com/treatments-skin-hair",
+    url: "https://www.epitheliaclinic.com/treatments",
     siteName: "Epithelia Clinic",
     locale: "en_US",
     type: "website",
