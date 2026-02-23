@@ -11,6 +11,12 @@ export const metadata = {
     "aesthetic treatments hyderabad",
     "dermatologist hyderabad"
   ],
+  
+  // Canonical URL
+  alternates: {
+    canonical: "https://www.epitheliaclinic.com/treatments",
+  },
+  
   openGraph: {
     title: "Premium Skin & Hair Treatments Hyderabad | Epithelia Clinic",
     description: "Advanced skin, hair, laser, and aesthetic treatments in Nanakramguda at Epithelia. Expert skin specialist provides anti-aging, PRP, and rejuvenation treatments.",
