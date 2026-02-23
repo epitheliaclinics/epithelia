@@ -14,7 +14,7 @@ export const metadata = {
   openGraph: {
     title: "Epithelia Skin & Hair Clinic Hyderabad - Dr. Naresh Kumar",
     description: "Epithelia Skin & Hair Clinic in Nanakramguda, Hyderabad providing advanced skin, hair, laser & wellness treatments by expert dermatologist Dr. Naresh Kumar.",
-    url: "https://yourdomain.com",
+    url: "https://www.epitheliaclinic.com/",
     siteName: "Epithelia Clinic",
     locale: "en_US",
     type: "website",
@@ -55,11 +55,11 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "MedicalBusiness",
   "name": "Epithelia Skin & Hair Clinic",
-  "image": "https://yourdomain.com/clinic-image.jpg",
+  "image": "https://www.epitheliaclinic.com/clinic-image.jpg",
   "description": "Epithelia Skin & Hair Clinic in Nanakramguda, Hyderabad providing advanced skin, hair, laser & wellness treatments by expert dermatologist Dr. Naresh Kumar.",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "Your Street Address",
+    "streetAddress": "1st floor, my scape corner, survey no: 88A, ADP Blvd, Financial District",
     "addressLocality": "Nanakramguda",
     "addressRegion": "Hyderabad",
     "addressCountry": "IN",
@@ -70,8 +70,8 @@ const jsonLd = {
     "latitude": "17.4239",
     "longitude": "78.3915"
   },
-  "url": "https://yourdomain.com",
-  "telephone": "+91-XXXXXXXXXX",
+  "url": "https://www.epitheliaclinic.com/",
+  "telephone": "+91-93911 11888",
   "priceRange": "$$",
   "founder": {
     "@type": "Person",
@@ -83,9 +83,8 @@ const jsonLd = {
     "Su 10:00-14:00"
   ],
   "sameAs": [
-    "https://www.facebook.com/yourpage",
-    "https://www.instagram.com/yourprofile",
-    "https://www.linkedin.com/company/yourclinic"
+    "https://www.instagram.com/epitheliaclinic",
+    "https://www.facebook.com/epitheliaclinic",
   ]
 };
 
