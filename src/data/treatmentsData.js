@@ -66,9 +66,9 @@ const solutionData = {
   'skin-rejuvenation': {
     title: 'SKIN rejuvenation',
     description: [
-      `Reveal luminous, youthful skin without the need for surgery. At Epithelia, our skin rejuvenation treatments are designed to restore radiance, refine texture, and target signs of ageing with precision and care.`,
-      `We combine the power of Dermal Infusion, Revlite SI Laser, and the advanced Alma Hybrid Laser to address concerns like pigmentation, dullness, uneven tone, and fine lines at their root.`,
-      `Each treatment is non-invasive, clinically backed, and fully tailored to your skin’s unique biology. Trusted by clients across Hyderabad, we deliver medical-grade results in a space that feels as elevated as the experience itself.`,
+      `Revitalize your skin with state of the-art skin rejuvenation treatments at the leading skin clinic in Nanakramguda, Hyderabad. Our expert skin specialists combine the power of Dermal Infusion, Revlite SI Laser, and the advanced Alma Hybrid Laser to address concerns like pigmentation, dullness, uneven tone, and fine lines at their root.`,
+      `With personalized care and cutting-edge technology, we restore radiance, improve texture, and deliver safe, long-lasting results. Discover youthful, glowing skin under the guidance of a trusted skin specialist at our premium Best Skin Clinic in Hyderabad.`,
+      
     ],
     whoTitle: 'WHO IS IT FOR?',
     who: [
