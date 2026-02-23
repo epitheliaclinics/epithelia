@@ -11,7 +11,7 @@ export const ourTreatmentsData = [
   {
     id: 'skin',
     number: '2',
-    title: 'Skin Rejuvenation',
+    title: 'Skin Rejuvenation Treatments in Hyderabad',
     subtitle: ['Dermal Infusion', 'Revlite SI Laser', 'Alma Hybrid'],
     description: `Reveal brighter, smoother, and more radiant skin with advanced dermatological treatments. Our personalised approach targets pigmentation, dullness, fine lines, and uneven texture, blending clinical precision with luxurious care.`,
     image: '/assets/images/solution_2.png',
@@ -20,7 +20,7 @@ export const ourTreatmentsData = [
   {
     id: 'laser',
     number: '3',
-    title: 'Laser & Light Therapy',
+    title: 'Advanced Laser & Light Therapy in Hyderabad',
     subtitle: ['Revlite SI Laser', 'Alma Hybrid', 'Alma Soprano', 'Titanium'],
     description: `Harness the power of advanced light and laser technology to refine skin tone, reduce pigmentation, and restore clarity. These non-invasive therapies are designed to resurface, brighten, and rejuvenate with precision and minimal downtime.`,
     image: '/assets/images/solution_3.png',
@@ -29,7 +29,7 @@ export const ourTreatmentsData = [
   {
     id: 'anti-ageing',
     number: '4',
-    title: 'Anti-ageing',
+    title: 'Expert Anti-Aging Treatment in Hyderabad',
     subtitle: [
       'Anthrex PRP',
       'Alma Hybrid',
@@ -43,7 +43,7 @@ export const ourTreatmentsData = [
   {
     id: 'laser-hair-reduction',
     number: '5',
-    title: 'Laser Hair Reduction',
+    title: 'Advanced Laser Hair Removal in Hyderabad',
     subtitle: ['Alma Soprano', 'Titanium'],
     description: `Smooth, effortless skin permanently. Our advanced laser hair reduction treatments use cutting-edge technology to deliver lasting results with minimal discomfort. Safe for all skin types, and designed for both precision and comfort.`,
     image: '/assets/images/solution_5.png',
@@ -52,7 +52,7 @@ export const ourTreatmentsData = [
   {
     id: 'preventive',
     number: '6',
-    title: 'Preventive care',
+    title: 'Preventive & Maintenance Care in Hyderabad',
     subtitle: ['Dermal Infusion', 'Alma Hybrid', 'Anthrex PRP'],
     description: `Our wellness treatments are designed to maintain optimal skin and scalp health, improving circulation, supporting cell turnover, and keeping your skin and hair at their best, year-round.`,
     image: '/assets/images/solution_6.png',
