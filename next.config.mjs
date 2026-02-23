@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
+    unoptimized: true,  // ← ADD THIS LINE - allows all local images to load
     remotePatterns: [
       {
         protocol: 'https',
