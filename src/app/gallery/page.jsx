@@ -75,14 +75,14 @@ export default function GalleryPage() {
     {
       id: 7,
       category: 'treatments',
-      src: '/images/gallery/treatment-2.png',
+      src: '/images/gallery/treatment2.png',
       alt: 'Skin Rejuvenation Treatment',
       title: 'Skin Rejuvenation'
     },
     {
       id: 8,
       category: 'treatments',
-      src: '/images/gallery/treatment-3.png',
+      src: '/images/gallery/treatment3.png',
       alt: 'PRP Hair Treatment',
       title: 'PRP Therapy'
     },
