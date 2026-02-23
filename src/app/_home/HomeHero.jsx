@@ -56,13 +56,13 @@ export default function HomeHero() {
       <div className='text-primary relative z-10 h-full flex items-end justify-start p-6 md:items-start md:pl-14 md:pt-40'>
         <div className='text-left w-full max-w-lg'>
           <h1 className='font-aboreto text-3xl sm:text-4xl md:text-5xl mb-4 leading-tight'>
-            <span className='block text-left whitespace-nowrap'>
-              A SANCTUARY FOR
-            </span>
-            <span className='block text-left font-normal'>
-              SKIN, HAIR AND SELF
-            </span>
-          </h1>
+             <span className='block text-left whitespace-nowrap'>
+                Advanced Skin and 
+               </span>
+               <span className='block text-left font-normal'>
+               Hair Clinic in Hyderabad
+               </span>
+               </h1>
 
           <p className='font-figtree text-lg sm:text-xl md:text-2xl font-light mb-6 text-left'>
             Led by specialists.
