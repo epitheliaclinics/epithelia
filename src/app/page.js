@@ -10,7 +10,7 @@ export const metadata = {
   creator: "Dr. Naresh Kumar",
   publisher: "Epithelia Clinic",
   
-  // ✅ ADD THIS - Canonical URL
+  //Canonical URL
   alternates: {
     canonical: "https://www.epitheliaclinic.com/",
   },
