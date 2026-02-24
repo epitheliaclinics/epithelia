@@ -4,7 +4,7 @@ import HomeMainLayout from "./_home/HomeMainLayout";
 export const metadata = {
   // Basic Meta Tags
   title: "Epithelia Skin & Hair Clinic Hyderabad - Dr. Naresh Kumar",
-  description: "Epithelia Skin & Hair Clinic in Nanakramguda, Hyderabad providing advanced skin, hair, laser & wellness treatments by expert dermatologist Dr. Naresh Kumar. Book your consultation today for personalized care and proven results.",
+  description: "Epithelia Skin & Hair Clinic in Nanakramguda, Hyderabad providing advanced skin, hair, laser & wellness treatments by expert dermatologist Dr. Naresh Kumar",
   keywords: ["skin clinic hyderabad", "hair clinic hyderabad", "dermatologist hyderabad", "laser treatment hyderabad", "nanakramguda skin clinic", "best dermatologist hyderabad"],
   authors: [{ name: "Dr. Naresh Kumar" }],
   creator: "Dr. Naresh Kumar",
