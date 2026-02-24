@@ -37,11 +37,12 @@ export default function Navbar() {
           />
         </Link>
         <button
-          className='hover:opacity-70 z-50'
-          onClick={() => setIsOpen(true)}
-        >
-          <Image src={menuSrc} alt='Menu' width={24} height={24} />
-        </button>
+        className='hover:opacity-90 z-50 bg-white/90 backdrop-blur-sm p-3 rounded-full shadow-lg hover:bg-white transition-all duration-300'
+         onClick={() => setIsOpen(true)}
+        aria-label="Open menu"
+         >
+         <Image src={menuSrc} alt='Menu' width={28} height={28} className="drop-shadow-sm" />
+         </button>
       </div>
 
       <Drawer isOpen={isOpen} onClose={() => setIsOpen(false)} />
