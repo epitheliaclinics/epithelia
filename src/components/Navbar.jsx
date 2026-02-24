@@ -54,9 +54,9 @@ function Drawer({ isOpen, onClose }) {
 
   const links = [
     { href: '/', label: 'HOME' },
+    { href: '/about', label: 'ABOUT EPITHELIA' },
     { href: '/treatments', label: 'TREATMENTS' },
     { href: '/technology', label: 'TECHNOLOGY' },
-    { href: '/about', label: 'ABOUT EPITHELIA' },
     { href: '/gallery', label: 'GALLERY' }, 
     { href: '/blogs', label: 'BLOGS' }, 
    
