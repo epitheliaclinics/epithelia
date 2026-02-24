@@ -105,13 +105,8 @@ export default function Footer() {
             <h4 className="font-aboreto text-lg mb-4 text-white">TREATMENTS</h4>
             <ul className="space-y-2">
               <li>
-                <Link href="/treatments/hair-restoration" className="text-white/80 hover:text-white transition-colors">
-                  Hair Restoration
-                </Link>
-              </li>
-              <li>
-                <Link href="/treatments/laser-hair-reduction" className="text-white/80 hover:text-white transition-colors">
-                  Laser Hair Reduction
+                <Link href="/treatments/hair-rejuvenation" className="text-white/80 hover:text-white transition-colors">
+                  Hair Rejuvenation
                 </Link>
               </li>
               <li>
@@ -120,13 +115,23 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/treatments/anti-aging" className="text-white/80 hover:text-white transition-colors">
-                  Anti-Aging
+                <Link href="/treatments/laser-light-therapy" className="text-white/80 hover:text-white transition-colors">
+                  Laser &amp; Light Therapy
                 </Link>
               </li>
               <li>
-                <Link href="/treatments/acne-treatment" className="text-white/80 hover:text-white transition-colors">
-                  Acne Treatment
+                <Link href="/treatments/anti-ageing" className="text-white/80 hover:text-white transition-colors">
+                  Anti-ageing
+                </Link>
+              </li>
+              <li>
+                <Link href="/treatments/laser-hair-reduction" className="text-white/80 hover:text-white transition-colors">
+                  Laser Hair Reduction
+                </Link>
+              </li>
+              <li>
+                <Link href="/treatments/preventive-care" className="text-white/80 hover:text-white transition-colors">
+                  Preventive Care
                 </Link>
               </li>
             </ul>
@@ -145,8 +150,8 @@ export default function Footer() {
               <li className="flex items-start space-x-3">
                 <Clock size={18} className="text-white/80 mt-1 flex-shrink-0" />
                 <span className="text-white/80">
-                  Mon - Sat<br />
-                  08:00 - 21:00
+                  MON - SUN<br />
+                  08:00AM - 9:00PM
                 </span>
               </li>
               <li className="flex items-start space-x-3">
