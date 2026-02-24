@@ -25,9 +25,7 @@ export default function GalleryPage() {
     { id: 'videos', name: 'Videos' },
   ];
 
-  // ALL GALLERY IMAGES
   const galleryImages = [
-    // CLINIC IMAGES
     {
       id: 1,
       category: 'clinic',
@@ -63,8 +61,6 @@ export default function GalleryPage() {
       alt: 'Epithelia Clinic - Waiting Hall',
       title: 'Comfortable Waiting Area'
     },
-    
-    // TREATMENTS IMAGES
     {
       id: 6,
       category: 'treatments',
@@ -72,71 +68,8 @@ export default function GalleryPage() {
       alt: 'Laser Hair Reduction Treatment',
       title: 'Laser Hair Reduction'
     },
-    {
-      id: 7,
-      category: 'treatments',
-      src: '/images/gallery/treatment2.png',
-      alt: 'Skin Rejuvenation Treatment',
-      title: 'Skin Rejuvenation'
-    },
-    {
-      id: 8,
-      category: 'treatments',
-      src: '/images/gallery/treatment3.png',
-      alt: 'PRP Hair Treatment',
-      title: 'PRP Therapy'
-    },
-    
-    // BEFORE & AFTER IMAGES
-    {
-      id: 9,
-      category: 'before-after',
-      src: '/images/gallery/before-after-1.png',
-      alt: 'Hair Restoration Before After',
-      title: 'Hair Restoration Results'
-    },
-    {
-      id: 10,
-      category: 'before-after',
-      src: '/images/gallery/before-after-2.png',
-      alt: 'Skin Treatment Before After',
-      title: 'Skin Transformation'
-    },
-    
-    // EQUIPMENT IMAGES
-    {
-      id: 11,
-      category: 'equipment',
-      src: '/images/gallery/equipment-1.png',
-      alt: 'Alma Laser Machine',
-      title: 'Alma Soprano Laser'
-    },
-    {
-      id: 12,
-      category: 'equipment',
-      src: '/images/gallery/equipment-2.png',
-      alt: 'Advanced Treatment Equipment',
-      title: 'State-of-the-Art Technology'
-    },
-    
-    // TEAM IMAGES
-    {
-      id: 13,
-      category: 'team',
-      src: '/images/gallery/team-1.png',
-      alt: 'Dr Naresh Kumar Dermatologist',
-      title: 'Dr. Naresh Kumar'
-    },
-    {
-      id: 14,
-      category: 'team',
-      src: '/images/gallery/team-2.png',
-      alt: 'Epithelia Clinic Team',
-      title: 'Expert Medical Team'
-    },
   ];
 
-  // YOUTUBE VIDEOS
   const galleryVideos = [
     {
       id: 1,
@@ -207,7 +140,7 @@ export default function GalleryPage() {
         <section className="py-16 px-4">
           <div className="max-w-7xl mx-auto">
             <h2 className="font-aboreto text-3xl md:text-4xl text-center mb-12">
-              Videos & Tours
+              Videos &amp; Tours
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {filteredVideos.map((video) => (
@@ -220,6 +153,7 @@ export default function GalleryPage() {
                     <img
                       src={video.thumbnail}
                       alt={video.title}
+                      loading="lazy"
                       className="object-cover w-full h-full group-hover:scale-110 transition-transform duration-300"
                     />
                     <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
@@ -241,7 +175,7 @@ export default function GalleryPage() {
         </section>
       )}
 
-      {/* Images Grid */}
+      {/* Images Grid - WITH LAZY LOADING */}
       <section className="py-16 px-4">
         <div className="max-w-7xl mx-auto">
           <h2 className="font-aboreto text-3xl md:text-4xl text-center mb-12">
@@ -262,6 +196,8 @@ export default function GalleryPage() {
                     <img
                       src={image.src}
                       alt={image.alt}
+                      loading={image.id <= 3 ? "eager" : "lazy"}
+                      fetchpriority={image.id <= 3 ? "high" : "auto"}
                       className="object-cover w-full h-full group-hover:scale-110 transition-transform duration-300"
                       onError={(e) => {
                         e.target.src = 'https://via.placeholder.com/400x400?text=Image+NotFound';
@@ -280,7 +216,7 @@ export default function GalleryPage() {
         </div>
       </section>
 
-      {/* Lightbox Modal for Images */}
+      {/* Lightbox Modal */}
       {selectedImage && (
         <div
           className="fixed inset-0 z-50 bg-black bg-opacity-90 flex items-center justify-center p-4"
@@ -297,9 +233,6 @@ export default function GalleryPage() {
               src={selectedImage.src}
               alt={selectedImage.alt}
               className="w-full rounded-lg"
-              onError={(e) => {
-                e.target.src = 'https://via.placeholder.com/1200x800?text=Image+NotFound';
-              }}
             />
             <p className="text-white text-center mt-4 text-xl">{selectedImage.title}</p>
           </div>
