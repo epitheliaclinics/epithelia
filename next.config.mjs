@@ -1,7 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    unoptimized: true,  // ← ADD THIS LINE - allows all local images to load
+    unoptimized: true,  
+    formats: ['image/webp'], 
+    deviceSizes: [640, 750, 828, 1080, 1200],  
+    minimumCacheTTL: 60,  
     remotePatterns: [
       {
         protocol: 'https',
