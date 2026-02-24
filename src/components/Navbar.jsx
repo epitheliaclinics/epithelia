@@ -56,8 +56,10 @@ function Drawer({ isOpen, onClose }) {
     { href: '/', label: 'HOME' },
     { href: '/treatments', label: 'TREATMENTS' },
     { href: '/technology', label: 'TECHNOLOGY' },
-    { href: '/gallery', label: 'GALLERY' }, 
     { href: '/about', label: 'ABOUT EPITHELIA' },
+    { href: '/gallery', label: 'GALLERY' }, 
+    { href: '/blogs', label: 'BLOGS' }, 
+   
   ];
 
   return (
