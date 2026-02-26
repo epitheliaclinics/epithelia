@@ -115,9 +115,9 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/treatments/laser-light-therapy" className="text-white/80 hover:text-white transition-colors">
-                  Laser &amp; Light Therapy
-                </Link>
+              <Link href="/treatments/laser-and-light-therapy" className="text-white/80 hover:text-white transition-colors">
+                Laser &amp; Light Therapy
+              </Link>
               </li>
               <li>
                 <Link href="/treatments/anti-ageing" className="text-white/80 hover:text-white transition-colors">
@@ -130,8 +130,8 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/treatments/preventive-care" className="text-white/80 hover:text-white transition-colors">
-                  Preventive Care
+                <Link href="/treatments/preventive-and-maintenance-care" className="text-white/80 hover:text-white transition-colors">
+                 Preventive Care
                 </Link>
               </li>
             </ul>
