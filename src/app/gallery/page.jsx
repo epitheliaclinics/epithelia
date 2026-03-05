@@ -125,14 +125,14 @@ export default function GalleryPage() {
     {
       id: 14,
       category: 'team',
-      src: '/images/gallery/team-dr-naresh.png',
+      src: '/images/gallery/team-2.png',
       alt: 'Dr Naresh Kumar Dermatologist',
       title: 'Dr. Naresh Kumar'
     },
     {
       id: 15,
       category: 'team',
-      src: '/images/gallery/team-clinic.png',
+      src: '/images/gallery/team-1.png',
       alt: 'Epithelia Clinic Team',
       title: 'Our Expert Team'
     },
