@@ -109,14 +109,14 @@ export default function GalleryPage() {
     {
       id: 12,
       category: 'equipment',
-      src: '/images/gallery/LASER &  THERAPY.png',
+      src: '/images/gallery/equipment-1.png',
       alt: 'Alma Laser Machine',
       title: 'Alma Soprano Laser'
     },
     {
       id: 13,
       category: 'equipment',
-      src: '/images/gallery/anti-ageing.png',
+      src: '/images/gallery/equipment-2.png',
       alt: 'PRP Equipment',
       title: 'PRP Therapy System'
     },
