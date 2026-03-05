@@ -68,6 +68,67 @@ export default function GalleryPage() {
       alt: 'Laser Hair Reduction Treatment',
       title: 'Laser Hair Reduction'
     },
+    // ADD THESE BEFORE & AFTER IMAGES:
+  {
+    id: 7,
+    category: 'before-after',
+    src: '/images/gallery/Hairrejuvenation.png',
+    alt: 'Hair Restoration Before After',
+    title: 'Hair Restoration Results'
+  },
+  {
+    id: 8,
+    category: 'before-after',
+    src: '/images/gallery/SKINrejuvenation.png',
+    alt: 'Skin Treatment Before After',
+    title: 'Skin Transformation'
+  },
+  {
+    id: 9,
+    category: 'before-after',
+    src: '/images/gallery/LASERHAIRREDUCTION.png',
+    alt: 'Hair Growth Before After',
+    title: 'Hair Growth Progress'
+  },
+  {
+    id: 10,
+    category: 'before-after',
+    src: '/images/gallery/LASER & LIGHT THERAPY.png',
+    alt: 'Hair Growth Before After',
+    title: 'Hair Growth Progress'
+  },
+  
+  // ADD EQUIPMENT IMAGES:
+  {
+    id: 11,
+    category: 'equipment',
+    src: '/images/gallery/LASER & LIGHT THERAPY.png',
+    alt: 'Alma Laser Machine',
+    title: 'Alma Soprano Laser'
+  },
+  {
+    id: 12,
+    category: 'equipment',
+    src: '/images/gallery/anti-ageing',
+    alt: 'PRP Equipment',
+    title: 'PRP Therapy System'
+  },
+  
+  // ADD TEAM IMAGES:
+  {
+    id: 13,
+    category: 'team',
+    src: '/images/gallery/team-dr-naresh.png',
+    alt: 'Dr Naresh Kumar Dermatologist',
+    title: 'Dr. Naresh Kumar'
+  },
+  {
+    id: 14,
+    category: 'team',
+    src: '/images/gallery/team-clinic.png',
+    alt: 'Epithelia Clinic Team',
+    title: 'Our Expert Team'
+  },
   ];
 
   const galleryVideos = [
