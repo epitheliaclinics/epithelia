@@ -68,67 +68,67 @@ export default function GalleryPage() {
       alt: 'Laser Hair Reduction Treatment',
       title: 'Laser Hair Reduction'
     },
-    // ADD THESE BEFORE & AFTER IMAGES:
-  {
-    id: 7,
-    category: 'before-after',
-    src: '/images/gallery/Hair rejuvenation.png',
-    alt: 'Hair Restoration Before After',
-    title: 'Hair Restoration Results'
-  },
-  {
-    id: 8,
-    category: 'before-after',
-    src: '/images/gallery/SKIN rejuvenation.png',
-    alt: 'Skin Treatment Before After',
-    title: 'Skin Transformation'
-  },
-  {
-    id: 9,
-    category: 'before-after',
-    src: '/images/gallery/LASER HAIR REDUCTION.png',
-    alt: 'Hair Growth Before After',
-    title: 'Hair Growth Progress'
-  },
-  {
-    id: 10,
-    category: 'before-after',
-    src: '/images/gallery/LASER & LIGHT THERAPY.png',
-    alt: 'Hair Growth Before After',
-    title: 'Hair Growth Progress'
-  },
-  
-  // ADD EQUIPMENT IMAGES:
-  {
-    id: 11,
-    category: 'equipment',
-    src: '/images/gallery/LASER & LIGHT THERAPY.png',
-    alt: 'Alma Laser Machine',
-    title: 'Alma Soprano Laser'
-  },
-  {
-    id: 12,
-    category: 'equipment',
-    src: '/images/gallery/anti-ageing',
-    alt: 'PRP Equipment',
-    title: 'PRP Therapy System'
-  },
-  
-  // ADD TEAM IMAGES:
-  {
-    id: 13,
-    category: 'team',
-    src: '/images/gallery/team-dr-naresh.png',
-    alt: 'Dr Naresh Kumar Dermatologist',
-    title: 'Dr. Naresh Kumar'
-  },
-  {
-    id: 14,
-    category: 'team',
-    src: '/images/gallery/team-clinic.png',
-    alt: 'Epithelia Clinic Team',
-    title: 'Our Expert Team'
-  },
+    // BEFORE & AFTER IMAGES:
+    {
+      id: 7,
+      category: 'before-after',
+      src: '/images/gallery/Hair rejuvenation.png',
+      alt: 'Hair Restoration Before After',
+      title: 'Hair Restoration Results'
+    },
+    {
+      id: 8,
+      category: 'before-after',
+      src: '/images/gallery/SKIN rejuvenation.png',
+      alt: 'Skin Treatment Before After',
+      title: 'Skin Transformation'
+    },
+    {
+      id: 9,
+      category: 'before-after',
+      src: '/images/gallery/LASER HAIR REDUCTION.png',
+      alt: 'Laser Hair Reduction Results',
+      title: 'Hair Growth Progress'
+    },
+    {
+      id: 10,
+      category: 'before-after',
+      src: '/images/gallery/LASER & LIGHT THERAPY.png',
+      alt: 'Laser Therapy Before After',
+      title: 'Laser Therapy Results'
+    },
+    
+    // EQUIPMENT IMAGES:
+    {
+      id: 11,
+      category: 'equipment',
+      src: '/images/gallery/LASER & LIGHT THERAPY.png',
+      alt: 'Alma Laser Machine',
+      title: 'Alma Soprano Laser'
+    },
+    {
+      id: 12,
+      category: 'equipment',
+      src: '/images/gallery/anti-ageing.png',
+      alt: 'PRP Equipment',
+      title: 'PRP Therapy System'
+    },
+    
+    // TEAM IMAGES:
+    {
+      id: 13,
+      category: 'team',
+      src: '/images/gallery/team-dr-naresh.png',
+      alt: 'Dr Naresh Kumar Dermatologist',
+      title: 'Dr. Naresh Kumar'
+    },
+    {
+      id: 14,
+      category: 'team',
+      src: '/images/gallery/team-clinic.png',
+      alt: 'Epithelia Clinic Team',
+      title: 'Our Expert Team'
+    },
   ];
 
   const galleryVideos = [
@@ -250,10 +250,10 @@ export default function GalleryPage() {
               {filteredImages.map((image) => (
                 <div
                   key={image.id}
-                  className="group cursor-pointer relative aspect-square"
+                  className="group cursor-pointer relative"
                   onClick={() => setSelectedImage(image)}
                 >
-                  <div className="relative overflow-hidden rounded-lg bg-gray-100">
+                  <div className="relative overflow-hidden rounded-lg bg-gray-100 aspect-[4/3]">
                     <img
                       src={image.src}
                       alt={image.alt}
@@ -261,7 +261,7 @@ export default function GalleryPage() {
                       fetchpriority={image.id <= 3 ? "high" : "auto"}
                       className="object-cover w-full h-full group-hover:scale-110 transition-transform duration-300"
                       onError={(e) => {
-                        e.target.src = 'https://via.placeholder.com/400x400?text=Image+NotFound';
+                        e.target.src = 'https://via.placeholder.com/600x450?text=Image+NotFound';
                       }}
                     />
                     <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-all duration-300 flex items-end p-6">
