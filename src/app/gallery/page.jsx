@@ -72,42 +72,49 @@ export default function GalleryPage() {
     {
       id: 7,
       category: 'before-after',
-      src: '/images/gallery/Hair rejuvenation.png',
+      src: '/images/gallery/anti-ageing.png',
       alt: 'Hair Restoration Before After',
-      title: 'Hair Restoration Results'
+      title: 'Anti Ageing Results'
     },
     {
       id: 8,
       category: 'before-after',
       src: '/images/gallery/SKIN rejuvenation.png',
       alt: 'Skin Treatment Before After',
-      title: 'Skin Transformation'
+      title: 'SKIN Rejuvenation'
     },
     {
       id: 9,
       category: 'before-after',
       src: '/images/gallery/LASER HAIR REDUCTION.png',
       alt: 'Laser Hair Reduction Results',
-      title: 'Hair Growth Progress'
+      title: 'LASER HAIR REDUCTION'
     },
     {
       id: 10,
       category: 'before-after',
       src: '/images/gallery/LASER & LIGHT THERAPY.png',
       alt: 'Laser Therapy Before After',
-      title: 'Laser Therapy Results'
+      title: 'LASER & LIGHT THERAPY'
+    },
+    {
+      id: 11,
+      category: 'before-after',
+      src: '/images/gallery/Hair Rejuvenation Rreatment in Hyderabad.png',
+      alt: 'Laser Therapy Before After',
+      title: 'Hair Rejuvenation Rreatment in Hyderabad'
     },
     
     // EQUIPMENT IMAGES:
     {
-      id: 11,
+      id: 12,
       category: 'equipment',
-      src: '/images/gallery/LASER & LIGHT THERAPY.png',
+      src: '/images/gallery/LASER &  THERAPY.png',
       alt: 'Alma Laser Machine',
       title: 'Alma Soprano Laser'
     },
     {
-      id: 12,
+      id: 13,
       category: 'equipment',
       src: '/images/gallery/anti-ageing.png',
       alt: 'PRP Equipment',
@@ -116,14 +123,14 @@ export default function GalleryPage() {
     
     // TEAM IMAGES:
     {
-      id: 13,
+      id: 14,
       category: 'team',
       src: '/images/gallery/team-dr-naresh.png',
       alt: 'Dr Naresh Kumar Dermatologist',
       title: 'Dr. Naresh Kumar'
     },
     {
-      id: 14,
+      id: 15,
       category: 'team',
       src: '/images/gallery/team-clinic.png',
       alt: 'Epithelia Clinic Team',
