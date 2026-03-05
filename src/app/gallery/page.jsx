@@ -72,21 +72,21 @@ export default function GalleryPage() {
   {
     id: 7,
     category: 'before-after',
-    src: '/images/gallery/Hairrejuvenation.png',
+    src: '/images/gallery/Hair rejuvenation.png',
     alt: 'Hair Restoration Before After',
     title: 'Hair Restoration Results'
   },
   {
     id: 8,
     category: 'before-after',
-    src: '/images/gallery/SKINrejuvenation.png',
+    src: '/images/gallery/SKIN rejuvenation.png',
     alt: 'Skin Treatment Before After',
     title: 'Skin Transformation'
   },
   {
     id: 9,
     category: 'before-after',
-    src: '/images/gallery/LASERHAIRREDUCTION.png',
+    src: '/images/gallery/LASER HAIR REDUCTION.png',
     alt: 'Hair Growth Before After',
     title: 'Hair Growth Progress'
   },
