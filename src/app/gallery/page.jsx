@@ -143,16 +143,17 @@ export default function GalleryPage() {
       thumbnail: 'https://img.youtube.com/vi/bz8OxFQAY_s/maxresdefault.jpg',
     },
 {
+  {
   id: 2,
   category: 'videos',
   type: 'treatment',
   title: 'Laser Hair Reduction Procedure',
   description: 'See how our advanced laser treatment works',
-  videoUrl: 'https://www.instagram.com/reel/DJEovQ9yZSq/',
-  thumbnail: '/images/thumbnails/laser-hair-reduction.jpg', 
+  videoUrl: 'https://www.youtube.com/watch?v=q56PGw3QK6A',
+  thumbnail: 'https://img.youtube.com/vi/q56PGw3QK6A/maxresdefault.jpg',
   instagramUrl: 'https://www.instagram.com/epitheliaclinic/',
-  platform: 'instagram',
 }
+
   ];
 
   const filteredImages = activeCategory === 'all' 
