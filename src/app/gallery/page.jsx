@@ -122,13 +122,7 @@ export default function GalleryPage() {
     },
     
     // TEAM IMAGES:
-    {
-      id: 14,
-      category: 'team',
-      src: '/images/gallery/team-2.png',
-      alt: 'Dr Naresh Kumar Dermatologist',
-      title: 'Dr. Naresh Kumar'
-    },
+
     {
       id: 15,
       category: 'team',
