@@ -144,14 +144,13 @@ export default function GalleryPage() {
     },
 {
   {
-  id: 2,
-  category: 'videos',
-  type: 'treatment',
-  title: 'Laser Hair Reduction Procedure',
-  description: 'See how our advanced laser treatment works',
-  videoUrl: 'https://www.youtube.com/watch?v=q56PGw3QK6A',
-  thumbnail: 'https://img.youtube.com/vi/q56PGw3QK6A/maxresdefault.jpg',
-  instagramUrl: 'https://youtu.be/q56PGw3QK6A?si=Ypjf74uenbBZENJd',
+id: 2,
+      category: 'videos',
+      type: 'treatment',
+      title: 'Laser Hair Reduction Procedure',
+      description: 'See how our advanced laser treatment works',
+      videoUrl: 'https://www.youtube.com/watch?v=q56PGw3QK6A  ',
+      thumbnail: 'https://img.youtube.com/vi/q56PGw3QK6A/maxresdefault.jpg  ',
 }
 
   ];
