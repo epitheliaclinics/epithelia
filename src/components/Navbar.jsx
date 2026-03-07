@@ -126,9 +126,9 @@ function Drawer({ isOpen, onClose }) {
           </PrimaryLink>
           <span className='font-aboreto text-secondary'>TIMINGS</span>
           <span className='text-tertiary'>
-            Monday - Saturday
+            MON - SUN
             <br />
-            08:00 - 21:00
+            10:00 AM - 7:00 PM
           </span>
         </div>
       </div>
