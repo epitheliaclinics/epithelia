@@ -1,4 +1,128 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<!-- <?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <sitemap><loc>https://epitheliaclinic.com/sitemap-0.xml</loc></sitemap>
-</sitemapindex>
+</sitemapindex> -->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+  <!-- ==================== HOMEPAGE ==================== -->
+  <url>
+    <loc>https://www.epitheliaclinic.com/</loc>
+    <lastmod>2026-03-20T07:48:46+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.00</priority>
+  </url>
+
+  <!-- ==================== MAIN PAGES ==================== -->
+  <url>
+    <loc>https://www.epitheliaclinic.com/about</loc>
+    <lastmod>2026-03-20T07:48:46+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+  </url>
+
+  <url>
+    <loc>https://www.epitheliaclinic.com/treatments</loc>
+    <lastmod>2026-03-20T07:48:46+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+  </url>
+
+  <url>
+    <loc>https://www.epitheliaclinic.com/technology</loc>
+    <lastmod>2026-03-20T07:48:46+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://www.epitheliaclinic.com/blogs</loc>
+    <lastmod>2026-03-20T07:48:46+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.epitheliaclinic.com/gallery</loc>
+    <lastmod>2026-03-20T07:48:46+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+
+  <url>
+    <loc>https://www.epitheliaclinic.com/book</loc>
+    <lastmod>2026-03-20T07:48:46+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- ==================== TREATMENT PAGES ==================== -->
+  <url>
+    <loc>https://www.epitheliaclinic.com/treatments/hair-rejuvenation</loc>
+    <lastmod>2026-03-20T07:48:46+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://www.epitheliaclinic.com/treatments/skin-rejuvenation</loc>
+    <lastmod>2026-03-20T07:48:46+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://www.epitheliaclinic.com/treatments/laser-and-light-therapy</loc>
+    <lastmod>2026-03-20T07:48:46+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://www.epitheliaclinic.com/treatments/anti-ageing</loc>
+    <lastmod>2026-03-20T07:48:46+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://www.epitheliaclinic.com/treatments/laser-hair-reduction</loc>
+    <lastmod>2026-03-20T07:48:46+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://www.epitheliaclinic.com/treatments/preventive-and-maintenance-care</loc>
+    <lastmod>2026-03-20T07:48:46+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- ==================== BLOG POSTS ==================== -->
+  <url>
+    <loc>https://www.epitheliaclinic.com/blogs/indian-skin-care</loc>
+    <lastmod>2026-03-20T07:48:46+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+
+  <url>
+    <loc>https://www.epitheliaclinic.com/blogs/hair-loss-in-30s</loc>
+    <lastmod>2026-03-20T07:48:46+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+
+  <url>
+    <loc>https://www.epitheliaclinic.com/blogs/laser-technology</loc>
+    <lastmod>2026-03-20T07:48:46+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+
+</urlset>
