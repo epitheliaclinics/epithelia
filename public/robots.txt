@@ -1,9 +1,7 @@
-# *
 User-agent: *
 Allow: /
 
-# Host
-Host: https://epitheliaclinic.com
+Disallow: /api/
+Disallow: /_next/
 
-# Sitemaps
-Sitemap: https://epitheliaclinic.com/sitemap.xml
+Sitemap: https://www.epitheliaclinic.com/sitemap.xml
