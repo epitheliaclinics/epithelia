@@ -1,11 +1,10 @@
 export const blogList = [
-  {
+{
   title: 'YOUR SKIN & HAIR NEW BEGINNING WITH DR. NARESH KUMAR',
-  excerpt:
-    'Discover advanced skin and hair treatments at Epithelia Clinic, Hyderabad. Expert care for anti-aging, PRP, GFC therapy, and rejuvenation treatments in Nanakramguda.',
-  image: '/assets/images/about_hero.png', //  blog image
+  excerpt: 'Discover advanced skin and hair treatments at Epithelia Clinic, Hyderabad. Expert care for anti-aging, PRP, GFC therapy, and rejuvenation treatments in Nanakramguda.',
+  image: '/assets/images/about_hero.png',
   link: '/blogs/skin-hair-new-beginning-dr-naresh',
-   },
+},
   {
     title: 'WHY INDIAN SKIN NEEDS SPECIALISED AESTHETIC CARE',
     excerpt:
@@ -187,19 +186,17 @@ export const blogListData = {
     image: '/assets/images/home_hero_3.png',
   },
 
-  // Add to blogListData object
 'skin-hair-new-beginning-dr-naresh': {
   title: 'YOUR SKIN & HAIR NEW BEGINNING WITH DR. NARESH KUMAR AT EPITHELIA CLINIC, HYDERABAD',
   subtitle: [
-    `Have you ever stood in front of the mirror wishing your skin looked brighter, younger, or just healthier? Or maybe you've been quietly worried about hair thinning for months, but didn't know where to start? You're not alone, and the good news is, help is closer than you think.`,
-    `Hyderabad is home to many clinics, but not all of them offer the expertise, technology, and personalised care that your skin and hair truly deserve. That's where Epithelia Clinic, a premier skin and hair clinic in Hyderabad, stands out from the rest.`,
-    `Founded and led by the experienced Dr. Naresh, Epithelia Clinic has built a strong reputation as a trusted cosmetology clinic. Whether you're looking for anti-aging treatment or advanced rejuvenation treatments in Nanakramguda, Hyderabad, this clinic delivers real results with a gentle, science-backed approach.`,
+    "Have you ever stood in front of the mirror wishing your skin looked brighter, younger, or just healthier? Or maybe you've been quietly worried about hair thinning for months, but didn't know where to start? You're not alone, and the good news is, help is closer than you think.",
+    "Hyderabad is home to many clinics, but not all of them offer the expertise, technology, and personalised care that your skin and hair truly deserve. That's where Epithelia Clinic, a premier skin and hair clinic in Hyderabad, stands out from the rest.",
+    "Founded and led by the experienced Dr. Naresh, Epithelia Clinic has built a strong reputation as a trusted cosmetology clinic. Whether you're looking for anti-aging treatment or advanced rejuvenation treatments in Nanakramguda, Hyderabad, this clinic delivers real results with a gentle, science-backed approach.",
   ],
   sections: [
     {
       heading: 'What Makes Epithelia Clinic the Best Skin and Hair Clinic in Hyderabad?',
-      description:
-        'Not every clinic is created equal. When it comes to your skin and hair, you want a team that listens, diagnoses correctly, and uses treatments that are proven to work. Epithelia Clinic checks all those boxes and then some.',
+      description: "Not every clinic is created equal. When it comes to your skin and hair, you want a team that listens, diagnoses correctly, and uses treatments that are proven to work. Epithelia Clinic checks all those boxes and then some.",
       bullets: [
         'Expert medical leadership under Dr. Naresh, with years of hands-on cosmetology experience',
         'Cutting-edge technology using the latest devices and techniques in dermatology',
@@ -210,23 +207,19 @@ export const blogListData = {
     },
     {
       heading: 'Skin Treatments Offered at Epithelia Clinic',
-      description:
-        'From common skin concerns to complex conditions, Epithelia Clinic offers a wide range of treatments tailored to your skin type and goals.',
+      description: 'From common skin concerns to complex conditions, Epithelia Clinic offers a wide range of treatments tailored to your skin type and goals.',
     },
     {
       heading: 'Acne and Acne Scar Treatment',
-      description:
-        "Acne isn't just a teenage problem. Many adults struggle with persistent breakouts and the scars they leave behind. The clinic uses a combination of chemical peels, laser therapy, and topical treatments to give you clearer, smoother skin.",
+      description: "Acne isn't just a teenage problem. Many adults struggle with persistent breakouts and the scars they leave behind. The clinic uses a combination of chemical peels, laser therapy, and topical treatments to give you clearer, smoother skin.",
     },
     {
       heading: 'Skin Brightening and Pigmentation Correction',
-      description:
-        "Dark spots, uneven skin tone, and sun damage can make your complexion look dull. Epithelia Clinic offers targeted pigmentation treatments that restore your skin's natural radiance without harsh side effects.",
+      description: "Dark spots, uneven skin tone, and sun damage can make your complexion look dull. Epithelia Clinic offers targeted pigmentation treatments that restore your skin's natural radiance without harsh side effects.",
     },
     {
       heading: 'Anti-Aging Treatment in Hyderabad',
-      description:
-        'Fine lines, wrinkles, and sagging skin are natural, but that doesn't mean you have to live with them. Epithelia Clinic is well known for its effective anti-aging treatment in Hyderabad.',
+      description: "Fine lines, wrinkles, and sagging skin are natural, but that doesn't mean you have to live with them. Epithelia Clinic is well known for its effective anti-aging treatment in Hyderabad.",
       bulletsTitle: 'Which includes:',
       bullets: [
         'Botox and dermal fillers for quick, natural-looking results',
@@ -237,8 +230,7 @@ export const blogListData = {
     },
     {
       heading: 'Rejuvenation Treatments in Nanakramguda, Hyderabad',
-      description:
-        'Located in the heart of Nanakramguda, Epithelia Clinic is your neighbourhood destination for rejuvenation treatments in Nanakramguda, Hyderabad. These treatments are designed to refresh tired, stressed skin and restore a youthful glow.',
+      description: "Located in the heart of Nanakramguda, Epithelia Clinic is your neighbourhood destination for rejuvenation treatments in Nanakramguda, Hyderabad. These treatments are designed to refresh tired, stressed skin and restore a youthful glow.",
       bullets: [
         'Platelet-rich plasma (PRP) therapy',
         'Laser skin resurfacing',
@@ -247,38 +239,31 @@ export const blogListData = {
     },
     {
       heading: 'Hair Care Services: More Than Just a Clinic',
-      description:
-        'Hair loss, thinning, and scalp problems affect millions of people — and the emotional impact is very real. As a leading skin and hair clinic in Hyderabad, Epithelia Clinic takes hair health as seriously as skin health.',
+      description: "Hair loss, thinning, and scalp problems affect millions of people — and the emotional impact is very real. As a leading skin and hair clinic in Hyderabad, Epithelia Clinic takes hair health as seriously as skin health.",
     },
     {
       heading: 'Hair Loss Diagnosis and Treatment',
-      description:
-        "Before recommending any treatment, Dr. Naresh conducts a thorough scalp analysis to identify the root cause of hair loss — whether it's hormonal, nutritional, stress-related, or genetic. Based on this, a personalised treatment plan is created.",
+      description: "Before recommending any treatment, Dr. Naresh conducts a thorough scalp analysis to identify the root cause of hair loss — whether it's hormonal, nutritional, stress-related, or genetic. Based on this, a personalised treatment plan is created.",
     },
     {
       heading: 'PRP Hair Treatment',
-      description:
-        'Platelet-Rich Plasma (PRP) therapy is one of the most effective non-surgical treatments for hair regrowth. Your own blood platelets are used to stimulate dormant hair follicles, leading to thicker, healthier hair over time.',
+      description: 'Platelet-Rich Plasma (PRP) therapy is one of the most effective non-surgical treatments for hair regrowth. Your own blood platelets are used to stimulate dormant hair follicles, leading to thicker, healthier hair over time.',
     },
     {
       heading: 'GFC (Growth Factor Concentrate) Therapy',
-      description:
-        'GFC is an advanced evolution of PRP, offering even higher concentrations of growth factors. Many patients see noticeable results within three to four sessions, making it a popular choice at Epithelia Clinic.',
+      description: 'GFC is an advanced evolution of PRP, offering even higher concentrations of growth factors. Many patients see noticeable results within three to four sessions, making it a popular choice at Epithelia Clinic.',
     },
     {
       heading: 'Mesotherapy for Hair',
-      description:
-        'Microinjections of vitamins and minerals directly into the scalp nourish the roots, reduce hair fall, and improve overall scalp health. It's quick, minimally painful, and highly effective.',
+      description: "Microinjections of vitamins and minerals directly into the scalp nourish the roots, reduce hair fall, and improve overall scalp health. It's quick, minimally painful, and highly effective.",
     },
     {
       heading: 'Epithelia Clinic as a Cosmetology Clinic in Hyderabad',
-      description:
-        'Beyond dermatology, Epithelia Clinic is also a full-service cosmetology clinic in Hyderabad, offering aesthetic and cosmetic procedures that enhance your natural appearance. Whether it's lip augmentation, under-eye filler, jawline contouring, or a full-face rejuvenation plan, Dr. Naresh approaches every procedure with artistry and precision.',
+      description: "Beyond dermatology, Epithelia Clinic is also a full-service cosmetology clinic in Hyderabad, offering aesthetic and cosmetic procedures that enhance your natural appearance. Whether it's lip augmentation, under-eye filler, jawline contouring, or a full-face rejuvenation plan, Dr. Naresh approaches every procedure with artistry and precision.",
     },
     {
       heading: 'What to Expect on Your First Visit',
-      description:
-        "Visiting a skin clinic for the first time can feel intimidating. Here's a quick walkthrough of your first appointment at Epithelia Clinic:",
+      description: "Visiting a skin clinic for the first time can feel intimidating. Here's a quick walkthrough of your first appointment at Epithelia Clinic:",
       bullets: [
         'Consultation: Dr. Naresh listens to your concerns, examines your skin or scalp, and asks about your lifestyle and medical history.',
         'Diagnosis: Using advanced diagnostic tools, a clear picture of your condition is established.',
@@ -289,8 +274,7 @@ export const blogListData = {
     },
     {
       heading: 'Why Location Matters: The Nanakramguda Advantage',
-      description:
-        "Epithelia Clinic is conveniently located in Nanakramguda, one of Hyderabad's fastest-growing professional and residential hubs. If you're searching for rejuvenation treatments in Nanakramguda, Hyderabad, or a reliable skin and hair clinic close to home or work, Epithelia Clinic's location makes it the most convenient choice for busy professionals and families alike.",
+      description: "Epithelia Clinic is conveniently located in Nanakramguda, one of Hyderabad's fastest-growing professional and residential hubs. If you're searching for rejuvenation treatments in Nanakramguda, Hyderabad, or a reliable skin and hair clinic close to home or work, Epithelia Clinic's location makes it the most convenient choice for busy professionals and families alike.",
     },
     {
       heading: 'Frequently Asked Questions (FAQ)',
@@ -305,9 +289,9 @@ export const blogListData = {
     },
   ],
   conclusion: [
-    `Taking care of your skin and hair isn't a luxury — it's an investment in your confidence and wellbeing. Whether you're dealing with acne, signs of aging, hair loss, or just want to look your absolute best, Epithelia Clinic has the expertise, technology, and compassionate care to help you get there.`,
-    `As the leading trusted cosmetology clinic in Hyderabad, Epithelia Clinic, under the guidance of Dr. Naresh, is ready to create a personalised plan just for you.`,
+    "Taking care of your skin and hair isn't a luxury — it's an investment in your confidence and wellbeing. Whether you're dealing with acne, signs of aging, hair loss, or just want to look your absolute best, Epithelia Clinic has the expertise, technology, and compassionate care to help you get there.",
+    "As the leading trusted cosmetology clinic in Hyderabad, Epithelia Clinic, under the guidance of Dr. Naresh, is ready to create a personalised plan just for you.",
   ],
-  image: '/assets/images/about_hero.png', // Your blog hero image
+  image: '/assets/images/about_hero.png',
 },
 };
