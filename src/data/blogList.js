@@ -276,22 +276,32 @@ export const blogListData = {
       heading: 'Why Location Matters: The Nanakramguda Advantage',
       description: "Epithelia Clinic is conveniently located in Nanakramguda, one of Hyderabad's fastest-growing professional and residential hubs. If you're searching for rejuvenation treatments in Nanakramguda, Hyderabad, or a reliable skin and hair clinic close to home or work, Epithelia Clinic's location makes it the most convenient choice for busy professionals and families alike.",
     },
+   {
+  heading: 'Frequently Asked Questions (FAQ)',
+  description: '',
+  faqs: [ 
     {
-      heading: 'Frequently Asked Questions (FAQ)',
-      description: '',
-      bullets: [
-        '1. What makes Epithelia Clinic the best skin and hair clinic in Hyderabad?',
-        'A :Epithelia Clinic combines advanced technology, personalised care, and the expertise of Dr. Naresh to deliver consistent results. Their comprehensive approach — treating both skin and hair under one roof — makes them a one-stop cosmetology clinic in Hyderabad.',
-        '2. What anti-aging treatments are available?',
-        'A : The clinic offers Botox, dermal fillers, thread lifts, RF microneedling, and HydraFacials. Dr. Naresh recommends the best option based on your skin type and goals.',
-        '3. Are rejuvenation treatments in Nanakramguda safe?',
-        'A : Yes. All rejuvenation treatments at Epithelia Clinic are performed by trained medical professionals using FDA-approved equipment and products. Safety and patient comfort are always the top priorities.',
-        '4. How many sessions does PRP hair treatment require?',
-        'A : Most patients need between 4 and 6 PRP sessions spaced 3 to 4 weeks apart for optimal results. Dr. Naresh will recommend a schedule based on your specific condition during the initial consultation.',
-        '5. How do I book an appointment? You can book through epitheliaclinic.com or call the clinic directly.',
-        'A: You can book a consultation directly through the official website at epitheliaclinic.com, or call the clinic to schedule your visit at their Nanakramguda, Hyderabad location.',
-      ],
+      question: 'What makes Epithelia Clinic the best skin and hair clinic in Hyderabad?',
+      answer: 'Epithelia Clinic combines advanced technology, personalised care, and the expertise of Dr. Naresh to deliver consistent results. Their comprehensive approach — treating both skin and hair under one roof — makes them a one-stop cosmetology clinic in Hyderabad.',
     },
+    {
+      question: 'What anti-aging treatments are available?',
+      answer: 'The clinic offers Botox, dermal fillers, thread lifts, RF microneedling, and HydraFacials. Dr. Naresh recommends the best option based on your skin type and goals.',
+    },
+    {
+      question: 'Are rejuvenation treatments in Nanakramguda safe?',
+      answer: 'Yes. All rejuvenation treatments at Epithelia Clinic are performed by trained medical professionals using FDA-approved equipment and products. Safety and patient comfort are always the top priorities.',
+    },
+    {
+      question: 'How many sessions does PRP hair treatment require?',
+      answer: 'Most patients need between 4 and 6 PRP sessions spaced 3 to 4 weeks apart for optimal results. Dr. Naresh will recommend a schedule based on your specific condition during the initial consultation.',
+    },
+    {
+      question: 'How do I book an appointment?',
+      answer: 'You can book a consultation directly through the official website at epitheliaclinic.com, or call the clinic to schedule your visit at their Nanakramguda, Hyderabad location.',
+    },
+  ],
+},
   ],
   conclusion: [
     "Taking care of your skin and hair isn't a luxury — it's an investment in your confidence and wellbeing. Whether you're dealing with acne, signs of aging, hair loss, or just want to look your absolute best, Epithelia Clinic has the expertise, technology, and compassionate care to help you get there.",
