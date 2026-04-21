@@ -4,7 +4,7 @@ export const blogList = [
 {
   title: 'YOUR SKIN & HAIR NEW BEGINNING WITH DR. NARESH KUMAR',
   excerpt: 'Discover advanced skin and hair treatments at Epithelia Clinic, Hyderabad. Expert care for anti-aging, PRP, GFC therapy, and rejuvenation treatments in Nanakramguda.',
-  image: '/assets/images/epithelia.png',
+  image: '/assets/images/gallery/epithelia.png',
   link: '/blogs/skin-hair-new-beginning-dr-naresh',
 },
   {
