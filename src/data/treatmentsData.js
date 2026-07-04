@@ -129,7 +129,7 @@ const solutionData = {
     isRotate: false,
   },
   'laser-and-light-therapy': {
-    title: 'LASER & LIGHT THERAPY',
+    title: 'Advanced Laser & Light Therapy in Hyderabad',
     description: [
       `Target skin and hair concerns with advanced, non invasive solutions at Epithelia. Our laser light therapy in Hyderabad is designed to correct pigmentation, acne scars, enlarged pores, and uneven skin tone with precision and care.`,
       `Using advanced technologies like Revlite SI Laser and Alma Hybrid, we treat concerns at their root for visible, long lasting results. Each session is safe, clinically proven, and customised to your skin type.`,
@@ -187,7 +187,7 @@ const solutionData = {
     isRotate: false,
   },
   'anti-ageing': {
-    title: 'ANTI-AGEING',
+    title: 'Expert Anti-Aging Treatment in Hyderabad',
     description: [
       'Reverse the visible signs of ageing with science-backed, luxurious care at Epithelia. Our anti aging treatment in Hyderabad combines regenerative biology and advanced technology to reduce fine lines, restore firmness, and revive youthful radiance without surgery.',
       `Using Arthrex PRP, Alma Hybrid Laser, Regenera Activa, and Dermal Infusion, we stimulate collagen, improve skin texture, and replenish lost volume from within. Every treatment is fully customised to your skin’s age, tone, and biology, delivering natural-looking, refined results.`,
@@ -258,7 +258,7 @@ const solutionData = {
     isRotate: true,
   },
   'laser-hair-reduction': {
-    title: 'LASER HAIR REDUCTION',
+    title: 'Advanced Laser Hair Removal in Hyderabad',
     description: [
       `Say goodbye to repetitive waxing, shaving, and threading. Experience laser hair removal in Hyderabad at Epithelia, offering a safe, long-term solution for unwanted facial and body hair. `,
       `Our advanced Alma Soprano and Alma Titanium lasers combine multi-wavelength diode technology with contact cooling for a virtually painless, fast, and effective treatment. Customized protocols treat everything from fine facial hair to dense body growth.`,
@@ -309,7 +309,7 @@ const solutionData = {
     isRotate: false,
   },
   'preventive-and-maintenance-care': {
-    title: 'PREVENTIVE CARE',
+    title: 'Preventive & Maintenance Care in Hyderabad',
     description: [
       `Start early with preventive ageing treatments in Hyderabad to maintain youthful skin and healthy hair. At Epithelia, we use non-invasive skin and hair care technologies like Dermal Infusion, Alma Hybrid Laser, and Arthrex PRP to hydrate, boost collagen, and strengthen hair follicles.`,
       `Our customised preventive care is perfect for adults in their 20s to 40s, protecting against early signs of ageing, pigmentation, dullness, and hair thinning, while promoting long-term skin and scalp health.`,
