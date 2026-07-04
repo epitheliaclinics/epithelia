@@ -64,7 +64,7 @@ const solutionData = {
     isRotate: true,
   },
   'skin-rejuvenation': {
-    title: 'SKIN rejuvenation',
+    title: 'Skin Rejuvenation Treatments in Hyderabad',
     description: [
       `Revitalize your skin with state of the-art skin rejuvenation treatments at the leading skin clinic in Nanakramguda, Hyderabad. Our expert skin specialists combine the power of Dermal Infusion, Revlite SI Laser, and the advanced Alma Hybrid Laser to address concerns like pigmentation, dullness, uneven tone, and fine lines at their root.`,
       `With personalized care and cutting-edge technology, we restore radiance, improve texture, and deliver safe, long-lasting results. Discover youthful, glowing skin under the guidance of a trusted skin specialist at our premium Best Skin Clinic in Hyderabad.`,
