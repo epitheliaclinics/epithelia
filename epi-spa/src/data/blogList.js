@@ -191,12 +191,13 @@ export const blogListData = {
     subtitle: [
       `If you've ever looked in the mirror and noticed patches of skin that are darker than the rest — around your cheeks, forehead, or jawline — you're not alone. Pigmentation is one of the most common concerns we see at Epithelia Clinic, and honestly, Indian skin is more prone to it than most other skin types.`,
       `Dr. Naresh Kumar, our lead dermatologist, explains it simply: "Indian skin has more melanin activity, which means it protects us better from the sun, but it also reacts faster to inflammation, hormones, and UV exposure — and that shows up as pigmentation."`,
+      `So, before you try another 10-step routine or a random serum that worked for someone on Instagram, let's understand what's actually going on with your skin — and what a proper pigmentation treatment in Hyderabad actually involves.`,
     ],
     sections: [
       {
         heading: '1. Why Indian Skin Gets Pigmentation So Easily',
         description:
-          'Melanin-rich skin (which most Indians have) is naturally more reactive. A pimple, a wax burn, a threading nick, even a mosquito bite — for many skin types these heal and disappear. On Indian skin, they often leave behind a dark mark that lingers for months. Add to that Hyderabad\'s year-round sun exposure, pollution, and humidity, and you have the perfect environment for pigmentation to build up and stay stubborn.',
+          'Melanin-rich skin (which most Indians have) is naturally more reactive. A pimple, a wax burn, a threading nick, even a mosquito bite — for many skin types these heal and disappear. On Indian skin, they often leave behind a dark mark that lingers for months. Add to that Hyderabad\'s year-round sun exposure, pollution, and humidity, and you have the perfect environment for pigmentation to build up and stay stubborn. This is exactly why so many people across the city end up searching for a reliable pigmentation treatment in Hyderabad rather than continuing to experiment on their own.',
       },
       {
         heading: '2. The Common Types of Pigmentation We See at the Clinic',
@@ -204,35 +205,47 @@ export const blogListData = {
           'Each of these needs a different treatment approach — which is why a proper diagnosis from a qualified dermatologist in Hyderabad matters more than picking a random cream off a shelf.',
         bulletsTitle: 'Common types include:',
         bullets: [
-          'Melasma: Symmetrical brown-grey patches, usually on the cheeks, upper lip, and forehead.',
-          'Post-Inflammatory Hyperpigmentation (PIH): Dark marks left behind after acne, a cut, a burn, or any skin injury.',
-          'Sun-Induced Pigmentation (Sunspots/Freckling): Flat brown spots that appear on sun-exposed areas.',
-          'Freckles: Genetic in nature, but can darken and multiply with unprotected sun exposure.',
+          'Melasma: Shows up as symmetrical brown-grey patches, usually on the cheeks, upper lip, and forehead. Very common in women, often triggered or worsened by hormones, sun exposure, and even certain birth control pills.',
+          'Post-Inflammatory Hyperpigmentation (PIH): This is the dark mark left behind after acne, a cut, a burn, or any skin injury. It\'s not scarring — it\'s the skin\'s pigment-producing cells overreacting to inflammation.',
+          'Sun-Induced Pigmentation (Sunspots/Freckling): Flat brown spots that appear on sun-exposed areas — face, neck, hands, forearms. Very common in people who spend a lot of time outdoors or commuting without sunscreen.',
+          'Freckles: Genetic in nature, but they can darken and multiply with unprotected sun exposure.',
         ],
       },
       {
         heading: '3. What Actually Works: Pigmentation Treatment Options',
         description:
-          'At Epithelia Clinic, we don\'t believe in a one-size-fits-all pigmentation treatment in Hyderabad. Dr. Naresh Kumar assesses your skin type, the depth of pigmentation, and your lifestyle before recommending a plan.',
+          'At Epithelia Clinic, we don\'t believe in a one-size-fits-all pigmentation treatment in Hyderabad. Dr. Naresh Kumar assesses your skin type, the depth of pigmentation, and your lifestyle before recommending a plan. Here\'s what\'s typically involved:',
         bulletsTitle: 'Treatment options typically involved:',
         bullets: [
-          'Medical-Grade Peels: Chemical peels using ingredients like glycolic acid, salicylic acid, or TCA gently exfoliate the top layers of skin.',
-          'Laser & Light-Based Treatments: Advanced laser therapy targets pigment cells directly without damaging the surrounding skin, done under strict protocols for Indian skin tones.',
-          'Topical Depigmenting Actives: Prescription-strength formulations containing kojic acid, azelaic acid, niacinamide, or tranexamic acid.',
-          'Sun Protection (Non-Negotiable): No pigmentation treatment works long-term without consistent SPF.',
-          'Maintenance & Preventive Care: A maintenance plan post-treatment so results actually last.',
+          'Medical-Grade Peels: Chemical peels using ingredients like glycolic acid, salicylic acid, or TCA gently exfoliate the top layers of skin, fading pigmentation and evening out tone over a series of sessions.',
+          'Laser & Light-Based Treatments: Advanced laser therapy targets pigment cells directly without damaging the surrounding skin — one of the most effective options for deeper or stubborn pigmentation. This is done under strict protocols designed for Indian and darker skin tones, where the wrong laser settings can actually worsen pigmentation.',
+          'Topical Depigmenting Actives: Prescription-strength formulations containing ingredients like kojic acid, azelaic acid, niacinamide, or tranexamic acid, used under medical supervision to regulate melanin production.',
+          'Sun Protection (Non-Negotiable): No pigmentation treatment works long-term without consistent SPF. This is the single most common reason pigmentation treatments fail — and the easiest one to fix.',
+          'Maintenance & Preventive Care: Because pigmentation-prone skin tends to relapse, we build a maintenance plan post-treatment so results actually last, rather than fading back in a few months.',
         ],
       },
       {
         heading: '4. Why See a Dermatologist in Hyderabad Instead of Self-Treating',
         description:
-          'Pigmentation is deceptively tricky. Treating it wrong — over-exfoliating, using unregulated bleaching creams, or getting laser treatment from an inexperienced provider — can make things worse. Seeing an experienced dermatologist in Hyderabad makes a real difference. At Epithelia Clinic, every pigmentation case is assessed individually by Dr. Naresh Kumar.',
+          'Pigmentation is deceptively tricky. Treating it wrong — over-exfoliating, using unregulated bleaching creams, or getting laser treatment from an inexperienced provider — can make things worse and even cause new pigmentation. This is where seeing an experienced dermatologist in Hyderabad makes a real difference. At Epithelia Clinic, every pigmentation case is assessed individually by Dr. Naresh Kumar before we recommend a treatment path, so you\'re not guessing or wasting money on things that won\'t work for your specific skin.',
+      },
+      {
+        heading: 'FAQs',
+        description: '',
+        bulletsTitle: '',
+        bullets: [
+          '1. How long does pigmentation treatment take to show results? Most people start seeing visible improvement in 4–6 weeks, with fuller results after a full treatment course of 2–3 months, depending on the type and depth of pigmentation.',
+          '2. Is laser treatment safe for Indian skin tones? Yes, when done correctly. Our dermatologist uses laser settings specifically calibrated for melanin-rich skin to avoid worsening pigmentation.',
+          '3. Can pigmentation come back after treatment? It can, especially without daily sunscreen use. That\'s why we include a maintenance plan with every pigmentation treatment.',
+          '4. Are home remedies effective for pigmentation? They may offer mild, temporary improvement at best, but won\'t address deeper or hormonal pigmentation. A dermatologist consultation gives a much clearer, faster path.',
+          '5. How do I know which pigmentation treatment is right for me? It depends on the type and cause of your pigmentation. A one-on-one consultation with Dr. Naresh Kumar, a trusted dermatologist in Hyderabad, helps identify this before starting treatment.',
+        ],
       },
     ],
     conclusion: [
       `If pigmentation has been bothering you for a while, the first step is simply getting the right diagnosis from a trusted dermatologist in Hyderabad.`,
-      `Epithelia Advanced Skin Hair & Aesthetic Clinic in Nanakramguda, Hyderabad offers personalized pigmentation treatment plans designed around your skin, your lifestyle, and your goals.`,
-      `Book a Consultation with Dr. Naresh Kumar today.`,
+      `Epithelia Advanced Skin Hair & Aesthetic Clinic in Nanakramguda, Hyderabad offers personalized pigmentation treatment plans designed around your skin, your lifestyle, and your goals. As one of the most sought-after clinics for pigmentation treatment in Hyderabad, we focus on results that actually last.`,
+      `Book a Consultation with Dr. Naresh Kumar.`,
     ],
     image: '/assets/images/epitheliablog.png',
   },
