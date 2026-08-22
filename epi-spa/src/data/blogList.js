@@ -19,6 +19,13 @@ export const blogList = [
     image: '/assets/images/solution_5.png',
     link: '/blogs/laser-technology',
   },
+  {
+    title: 'PIGMENTATION TREATMENT GUIDE FOR INDIAN SKIN TONES',
+    excerpt:
+      'Struggling with dark spots or uneven tone? Dr. Naresh Kumar at Epithelia Clinic, Hyderabad shares a complete pigmentation treatment guide made for Indian skin.',
+    image: '/assets/images/epitheliablog.png',
+    link: '/blogs/pigmentation-treatment-indian-skin-tones',
+  },
 ];
 
 export const blogListData = {
@@ -27,7 +34,7 @@ export const blogListData = {
     subtitle: [
       `Understanding your skin. Choosing the right clinic. Seeing results that last.`,
       `When it comes to skin health and beauty, one size doesn't fit all, especially in a country as diverse as India. Indian skin has unique biological needs, which means that choosing the right aesthetic treatments, and the right expertS makes all the difference.`,
-      `At Epithelia Clinic, every treatment is designed with the nuances of Indian skin in mind, combining dermatological expertise with advanced global technologies. Here’s why that matters:`,
+      `At Epithelia Clinic, every treatment is designed with the nuances of Indian skin in mind, combining dermatological expertise with advanced global technologies. Here’s why that matters:`,
     ],
     sections: [
       {
@@ -80,8 +87,8 @@ export const blogListData = {
     ],
     conclusion: [
       `Your skin deserves more than a global standard. It deserves a personal one.`,
-      `Indian skin is beautiful, resilient and deeply individual. At Epithelia, we don’t just treat skin. We understand it, respect it, and work with it.`,
-      `Ready to experience skin care that’s built around you?`,
+      `Indian skin is beautiful, resilient and deeply individual. At Epithelia, we don’t just treat skin. We understand it, respect it, and work with it.`,
+      `Ready to experience skin care that’s built around you?`,
     ],
     image: '/assets/images/home_hero.png',
   },
@@ -89,8 +96,8 @@ export const blogListData = {
     title: "HAIR LOSS IN YOUR 30S?\n HERE'S WHAT'S ACTUALLY HAPPENING",
     subtitle: [
       `What causes it, how to treat it, and why early action matters`,
-      `Noticing more hair on your pillow? Or watching your hairline creep back, strand by strand? You’re not alone. Hair loss in your 30s is far more common than most people realise, especially in Indian men and women.`,
-      `At Epithelia, we approach hair rejuvenation with clinical precision and a deep understanding of Indian scalp biology, helping you not just stop hair loss, but reverse it. Here’s what you need to know:`,
+      `Noticing more hair on your pillow? Or watching your hairline creep back, strand by strand? You’re not alone. Hair loss in your 30s is far more common than most people realise, especially in Indian men and women.`,
+      `At Epithelia, we approach hair rejuvenation with clinical precision and a deep understanding of Indian scalp biology, helping you not just stop hair loss, but reverse it. Here’s what you need to know:`,
     ],
     sections: [
       {
@@ -135,7 +142,7 @@ export const blogListData = {
       },
     ],
     conclusion: [
-      `All solutions are non-surgical, minimally invasive, and crafted around your hair type, health history, and goals.`,
+      `All solutions are non-surgical, minimally invasive, and crafted around your hair type, health history, and goals.`,
       `Your 30s don’t have to be the start of hair loss. They can be the start of recovery.`,
       `At Epithelia, we don’t offer quick fixes; we deliver visible, lasting results through personalised care and premium technology. `,
     ],
@@ -146,8 +153,8 @@ export const blogListData = {
       'NOT ALL LASER ARE TREATED EQUAL:\n CHOOSING THE RIGHT TECHNOLOGY FOR YOUR SKIN',
     subtitle: [
       `A guide to safe, effective, and luxurious laser treatments for Indian skin.`,
-      `From pigmentation and scarring to unwanted hair and skin laxity, laser treatments have transformed the way we care for our skin. But with so many options out there, how do you know what’s right for your skin?`,
-      `At Epithelia, we invest in only the most advanced and melanin-safe technologies—curated for Indian skin tones and tested for results. Here’s what sets them apart:`,
+      `From pigmentation and scarring to unwanted hair and skin laxity, laser treatments have transformed the way we care for our skin. But with so many options out there, how do you know what’s right for your skin?`,
+      `At Epithelia, we invest in only the most advanced and melanin-safe technologies—curated for Indian skin tones and tested for results. Here’s what sets them apart:`,
     ],
     sections: [
       {
@@ -157,7 +164,7 @@ export const blogListData = {
       },
       {
         heading: '2. Technologies we trust, and why',
-        subtitle: 'Revlite SI – For Pigmentation, Brightening & Acne Scars',
+        subtitle: 'Revlite SI – For Pigmentation, Brightening & Acne Scars',
         description:
           'A powerful Q-switched Nd:YAG laser that uses PhotoAcoustic Technology to gently break up pigmentation, stimulate collagen, and even skin tone—all while being safe for darker skin tones.',
         bulletsTitle: 'Best for:',
@@ -175,8 +182,58 @@ export const blogListData = {
     ],
     conclusion: [
       `Luxury meets precision.`,
-      `Our lasers aren’t just clinically advanced, they’re part of a larger philosophy: safe, natural-looking results that enhance your skin’s integrity. No over-treatment, no shortcuts.`,
+      `Our lasers aren’t just clinically advanced, they’re part of a larger philosophy: safe, natural-looking results that enhance your skin’s integrity. No over-treatment, no shortcuts.`,
     ],
     image: '/assets/images/home_hero_3.png',
+  },
+  'pigmentation-treatment-indian-skin-tones': {
+    title: 'PIGMENTATION TREATMENT GUIDE FOR INDIAN SKIN TONES',
+    subtitle: [
+      `If you've ever looked in the mirror and noticed patches of skin that are darker than the rest — around your cheeks, forehead, or jawline — you're not alone. Pigmentation is one of the most common concerns we see at Epithelia Clinic, and honestly, Indian skin is more prone to it than most other skin types.`,
+      `Dr. Naresh Kumar, our lead dermatologist, explains it simply: "Indian skin has more melanin activity, which means it protects us better from the sun, but it also reacts faster to inflammation, hormones, and UV exposure — and that shows up as pigmentation."`,
+    ],
+    sections: [
+      {
+        heading: '1. Why Indian Skin Gets Pigmentation So Easily',
+        description:
+          'Melanin-rich skin (which most Indians have) is naturally more reactive. A pimple, a wax burn, a threading nick, even a mosquito bite — for many skin types these heal and disappear. On Indian skin, they often leave behind a dark mark that lingers for months. Add to that Hyderabad\'s year-round sun exposure, pollution, and humidity, and you have the perfect environment for pigmentation to build up and stay stubborn.',
+      },
+      {
+        heading: '2. The Common Types of Pigmentation We See at the Clinic',
+        description:
+          'Each of these needs a different treatment approach — which is why a proper diagnosis from a qualified dermatologist in Hyderabad matters more than picking a random cream off a shelf.',
+        bulletsTitle: 'Common types include:',
+        bullets: [
+          'Melasma: Symmetrical brown-grey patches, usually on the cheeks, upper lip, and forehead.',
+          'Post-Inflammatory Hyperpigmentation (PIH): Dark marks left behind after acne, a cut, a burn, or any skin injury.',
+          'Sun-Induced Pigmentation (Sunspots/Freckling): Flat brown spots that appear on sun-exposed areas.',
+          'Freckles: Genetic in nature, but can darken and multiply with unprotected sun exposure.',
+        ],
+      },
+      {
+        heading: '3. What Actually Works: Pigmentation Treatment Options',
+        description:
+          'At Epithelia Clinic, we don\'t believe in a one-size-fits-all pigmentation treatment in Hyderabad. Dr. Naresh Kumar assesses your skin type, the depth of pigmentation, and your lifestyle before recommending a plan.',
+        bulletsTitle: 'Treatment options typically involved:',
+        bullets: [
+          'Medical-Grade Peels: Chemical peels using ingredients like glycolic acid, salicylic acid, or TCA gently exfoliate the top layers of skin.',
+          'Laser & Light-Based Treatments: Advanced laser therapy targets pigment cells directly without damaging the surrounding skin, done under strict protocols for Indian skin tones.',
+          'Topical Depigmenting Actives: Prescription-strength formulations containing kojic acid, azelaic acid, niacinamide, or tranexamic acid.',
+          'Sun Protection (Non-Negotiable): No pigmentation treatment works long-term without consistent SPF.',
+          'Maintenance & Preventive Care: A maintenance plan post-treatment so results actually last.',
+        ],
+      },
+      {
+        heading: '4. Why See a Dermatologist in Hyderabad Instead of Self-Treating',
+        description:
+          'Pigmentation is deceptively tricky. Treating it wrong — over-exfoliating, using unregulated bleaching creams, or getting laser treatment from an inexperienced provider — can make things worse. Seeing an experienced dermatologist in Hyderabad makes a real difference. At Epithelia Clinic, every pigmentation case is assessed individually by Dr. Naresh Kumar.',
+      },
+    ],
+    conclusion: [
+      `If pigmentation has been bothering you for a while, the first step is simply getting the right diagnosis from a trusted dermatologist in Hyderabad.`,
+      `Epithelia Advanced Skin Hair & Aesthetic Clinic in Nanakramguda, Hyderabad offers personalized pigmentation treatment plans designed around your skin, your lifestyle, and your goals.`,
+      `Book a Consultation with Dr. Naresh Kumar today.`,
+    ],
+    image: '/assets/images/epitheliablog.png',
   },
 };
