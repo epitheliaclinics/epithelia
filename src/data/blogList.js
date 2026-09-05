@@ -25,6 +25,12 @@ export const blogList = [
     image: '/assets/images/solution_5.png',
     link: '/blogs/laser-technology',
   },
+    {
+    title: 'PIGMENTATION TREATMENT GUIDE FOR INDIAN SKIN TONES',
+    excerpt: 'Struggling with dark spots or uneven tone? Dr. Naresh Kumar at Epithelia Clinic, Hyderabad shares a complete pigmentation treatment guide made for Indian skin.',
+    image: '/assets/images/epitheliablog.png',
+    link: '/blogs/pigmentation-treatment-indian-skin-tones',
+  },
 ];
 
 export const blogListData = {
