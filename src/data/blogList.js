@@ -347,5 +347,5 @@ export const blogListData = {
       `Book a Consultation with Dr. Naresh Kumar.`,
     ],
     image: '/assets/images/epitheliablog.png',
-  },
+  }
 };
